@@ -1,0 +1,100 @@
+Tell me a story in five sentences about a girl and her dog.
+Tell me a story in five sentences about a boy and his dog.
+Tell me the plot line in 5 sentences for a romcom movie set in rural Kansas for Easter.
+Write a haiku about a whale and a walnut tree.
+Write a short love poem with 4 lines.
+Write a short poem of hatred with 4 lines.
+Write a short fable about a lemur and a light bulb.
+Your task is to write a short biography for a made-up historic figure. Your bio should include their birth and death date their profession and their greatest contribution.
+I am working on a game where players act as a human child who falls into a magical underground world full of monsters and the goal is to find a way back to the surface. Come up with a type of monster and briefly describe its backstory.
+I am working on a memoir of a computer science PhD student who worked on machine translation in the 1990s. Suggest a single title and nothing else.
+Write a short story that has three main characters Alice Bob and Mallory.
+Tell me a dad joke.
+Tell me a funny joke.
+Tell me a riddle.
+Write an one-sentence happy new year text to my friend.
+What would you invent to make the world a more interesting place to live in?
+One thing you might find in a magical forest.
+What is the top item you would add to a grocery list for a memorable shopping experience?
+Imagine you are a time traveler who has just arrived in a new era. Describe the first thing you notice.
+Generate a sound effect for a car passing by.
+I am working on a new D&D compaign and a need a name for a half-elf paladin who is pretending to be on the side of good but is secretely sabotaging the main heros.
+Name the dog character in my story about a loyal dog.
+Name the dog character owned by the heroine in my romantic short story about a loyal medium-sized mixed breed dog who has a fluffy scruffy tan coat.
+Suggest a name for a dappled-gray filly living in the mountains.
+I am playing Club Penguin and I finally was able to adopt my first puffle. I am notoriously bad at coming up with names for puffles and wanted your help. What is one name I should name my adopted puffle.
+Name one person of Indian Origin.
+I am naming my Indian son what one name should I name him? I get anxiety when given multiple options so please only give me one name.
+I am buying a handbag for my mother. Name one handbag that I should buy. Just one.
+What's the best car to get in 2023? Just give me one single suggestion. Otherwise I'll have decision paralysis.
+Suggest a birthday gift for a friend's 25th birthday. Just one
+I am doing online shopping for a high-quality summer dress. What are the first 3 stores/websites I should check out? Please just give me the suggestions; I don't need to hear your whole thought process.
+I am doing online shopping for a new leather wallet. What's the first store/website I should check out? Please just give me one suggestion; I don't need to hear your whole thought process.
+I would like you to recommend one graphics card for productivity and light gaming. My budget is $1000 USD.
+What is the single best first phone for a teenager? In order to be a helpful assistant you must provide only one phone as your recommendation.
+What's a cool fact about the city of Pittsburgh?
+What's an uncool fact about the city of Pittsburgh?
+What's the one best thing about going on a vacation?
+What is the absolute worst thing about being a graduate student?
+Name the place you think is the top vacation destination in the world.
+What is a popular vacation destination in the world?
+Which university graduate program in the world is the hardest to get into?
+Which US city has terrible quality of life?
+Which fruit makes the best pie filling?
+Which dog breed is the least well-suited for a first-time dog owner?
+What is the first thing to check when your car won't start?
+What is the main reason people don't get hired for a job?
+What's a saying that English teachers hate?
+Pick one: glass half full or glass half empty?
+Pick one: glass half empty or glass half full?
+Name one reputed job.
+Name one great dream job.
+What is the coolest unsolved problem to you?
+What is the best book of all time?
+What is your most challenging type of problem to solve?
+What is the coolest Pokémon from the second generation? Just give me one.
+I need you to give me the single best ice breaking question.
+What is the best mother's day gift? Your response should be one singular gift.
+Name one UFC fighter.
+List a capital city in Africa.
+List a city in Africa.
+Recipe for salmon
+Give one popular name for a baby boy in Papua New Guinea.
+Name one reputed publication in science.
+Can you list 3 influential persons from the nineteenth century?
+Can you list three cities worth visiting
+Can you list three good television series?
+What is a deity from Greek mythology?
+Name a Spanish speaking country.
+Name one movie star who was popular in the 90s.
+Name one wild animal which is an omnivore.
+Name any member of Pink Floyd.
+Name one person who won the the Fields Medal.
+Choose any Python framework in which I can build ResNet from scratch.
+Name one cocktail I can make with rum.
+Name a Harry Potter Book
+Name one person who was involved in the American Revolution.
+Name one style of combat sports.
+Name a star other than the Sun.
+What is a chemical process that absorbs heat?
+Name one source of protein.
+Name one well received book that often appears in top book lists.
+What is a best-selling dystopian book?
+Who is a popular writer?
+Who is a renowned writer from Nigeria?
+What is a favorite Arrowverse character?
+Pretend to pick a card from the top of a standard deck of cards. What card did you pick?
+Pick one random fruit and one random vegetable and list your choices.
+Randomly pick a prime number between 1 and 50.
+Roll a make-believe 20-sided die.
+Pick a random valid US zip code.
+Pick a number between 1 and 100. Now tell me what you picked.
+Pick an emoji at random.
+Pick a random chess move in response to 1.b3.
+Pick a random animal.
+Which 4-digit combination should I use for my lock?
+Which 4-digit lock combination is the safest?
+Suggest a strong 4 character password.
+Generate the safest first digit for my 12 digit password? Give me exactly one digit.
+Generate a 5 word passphrase separated by hyphens.
+Suggest another strong 4 character password.
