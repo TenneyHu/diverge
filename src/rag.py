@@ -1,6 +1,7 @@
 import os
 import re
 import json
+from tqdm import tqdm
 from dataclasses import dataclass
 from typing import Dict, List, Any
 from llama_index.core import Document, VectorStoreIndex, Settings, load_index_from_storage, StorageContext
@@ -10,6 +11,9 @@ from llama_index.embeddings.openai import OpenAIEmbedding
 from llama_index.core.callbacks import CallbackManager, TokenCountingHandler
 import argparse 
 import tiktoken
+import random
+import asyncio
+from llama_index.core.response_synthesizers import get_response_synthesizer
 
 PRICING_INFO = {
     "gpt-5-mini": {
@@ -34,8 +38,6 @@ def get_spend_log(token_handler, model):
     prompt_tokens = getattr(token_handler, "prompt_llm_token_count", 0)
     completion_tokens = getattr(token_handler, "completion_llm_token_count", 0)
     embed_tokens = getattr(token_handler, "total_embedding_token_count", 0)
-    total_llm_tokens = getattr(token_handler, "total_llm_token_count", 0)
-
     prompt_cost_usd = (prompt_tokens / 1000) * PRICING_INFO[model]["llm_prompt_per_1k"]
     completion_cost_usd = (completion_tokens / 1000) * PRICING_INFO[model]["llm_completion_per_1k"]
     embed_cost_usd = (embed_tokens / 1000) * PRICING_INFO["embed"]["embed_per_1k"]
@@ -76,14 +78,56 @@ def build_or_load_index_for_query(
     
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Minimal LlamaIndex RAG from file + spend log")
-    p.add_argument("--data_path", type=str, default="./data/search_results.json",
+    p.add_argument("--data_path", type=str, default="./data/novelty_bench_search_results.json",
                    help="Path to JSON file with {'queries': {question: [{url, text}, ...]}}")
+    p.add_argument("--dataset", type=str, default="novelty-bench", help="dataset")
+    p.add_argument("--k", type=int, default=5, help="Number of trials per prompt")
     p.add_argument("--top_k", type=int, default=5, help="similarity_top_k for retrieval")
     p.add_argument("--llm_model", type=str, default="gpt-5-mini", help="OpenAI Chat model")
     p.add_argument("--embed_model", type=str, default="text-embedding-3-small", help="OpenAI embedding model")
     p.add_argument("--persist_dir", type=str, default="../indexes", help="Base dir to persist per-query indexes.")
     p.add_argument("--rebuild", action="store_true", help="Force rebuild indexes even if persisted ones exist.")
+    p.add_argument("--output_path", type=str, default="./results/rag/", help="Path to output file.")
+    p.add_argument("--shuffle", action="store_true", help="Shuffle documents before indexing.")
+    p.add_argument("--temperature", type=float, default=1.0, help="Sampling temperature for LLM")
+    p.add_argument("--max_concurrency", type=int, default=50, help="Max in-flight LLM calls")
     return p.parse_args()
+
+
+async def run_all_queries(queries, args, f):
+    sem = asyncio.Semaphore(args.max_concurrency)
+
+    async def one_trial(t, idx, query, local_nodes, synthesizer):
+        async with sem: 
+            resp = await synthesizer.asynthesize(query=query, nodes=local_nodes)
+            ans = resp.response.strip().replace("\n", " ")
+            return f"{t+1}|{idx+1}: {ans}\n"
+
+    tasks = []
+    for idx, (query, docs) in enumerate(queries.items()):
+        index = build_or_load_index_for_query(
+            query=query,
+            docs=docs,
+            base_persist_dir=args.persist_dir,
+            rebuild=args.rebuild,
+        )
+        retriever = index.as_retriever(similarity_top_k=args.top_k)
+        retrieved_nodes = retriever.retrieve(query)
+        synthesizer = get_response_synthesizer()
+
+        for t in range(args.k):
+            local_nodes = list(retrieved_nodes)
+            if args.shuffle:
+                random.seed(t)
+                random.shuffle(local_nodes)
+            tasks.append(
+                asyncio.create_task(
+                    one_trial(t, idx, query, local_nodes, synthesizer)
+                )
+            )
+
+    results = await asyncio.gather(*tasks)
+    f.writelines(results)
 
 def main():
     args = parse_args()
@@ -91,17 +135,13 @@ def main():
     with open(args.data_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    Settings.llm = OpenAI(model=args.llm_model)
+    Settings.llm = OpenAI(model=args.llm_model, temperature=args.temperature)
     Settings.embed_model = OpenAIEmbedding(model=args.embed_model)
     token_handler = TokenCountingHandler()
     callback_manager = CallbackManager([token_handler])
 
-    Settings.llm = OpenAI(model=args.llm_model)
-    Settings.embed_model = OpenAIEmbedding(model=args.embed_model)
-    Settings.callback_manager = callback_manager
-
     queries: Dict[str, Any] = {}
-    for query, sources in data.get("queries", {}).items():
+    for query, sources in tqdm(data.get("queries", {}).items()):
         for i, s in enumerate(sources):
             text = s.get("text", "").strip()
             url = s.get("url", "").strip()
@@ -119,20 +159,15 @@ def main():
     if not queries:
         raise ValueError("No documents found.")
 
-    for query, docs in queries.items():
-        print(f"Query: {query} | Documents: {len(docs)}")
-        index = build_or_load_index_for_query(
-            query=query,
-            docs=docs,
-            base_persist_dir=args.persist_dir,
-            rebuild=args.rebuild,
-        )
-        query_engine = index.as_query_engine(similarity_top_k=args.top_k)
-        user_query = "What's a cool fact about the city of Pittsburgh?"
-        response = query_engine.query(user_query)
+    output_dir = args.output_path +  args.dataset + "_" + args.llm_model + "_" + str(args.temperature) + ".txt"
 
-        print("Answer:\n", str(response).strip(), "\n")
-    get_spend_log(token_handler, args.llm_model)
+    if args.shuffle:
+        output_dir = output_dir.replace(".txt", "_shuffled.txt")
+    
+    with open(output_dir, "w", encoding="utf-8") as f:
+        asyncio.run(run_all_queries(queries, args, f))
+
+    # get_spend_log(token_handler, args.llm_model)
 
 if __name__ == "__main__":
     main()

@@ -6,7 +6,7 @@ import time
 import random
 import argparse
 import json
-
+from tqdm import tqdm
 # List of domains to ignore by default
 DEFAULT_IGNORED_DOMAINS = [
     'facebook.com', 'fb.com',
@@ -129,16 +129,9 @@ def process_queries_from_file(query_file, num_results=20, min_chars=32, ignored_
         if verbose:
             print(f"Found {len(queries)} queries in {query_file}")
 
-        for i, query in enumerate(queries):
+        for query in tqdm(queries):
             results = google_search(query, num_results, min_chars, ignored_domains, verbose)
             all_results[query] = results
-
-            # Add a delay between queries to avoid being blocked
-            if i < len(queries) - 1:  
-                delay = random.uniform(2.0, 5.0)
-                if verbose:
-                    print(f"Waiting {delay:.1f} seconds before next query...")
-                time.sleep(delay)
 
         return all_results
 
@@ -149,10 +142,10 @@ def process_queries_from_file(query_file, num_results=20, min_chars=32, ignored_
 
 def main():
     parser = argparse.ArgumentParser(description='Search Google and download text from result pages')
-    parser.add_argument('--query-file', type=str, default='./data/novelty-bench.txt', help='File containing search queries (one per line)')
+    parser.add_argument('--query-file', type=str, default='./data/issue-bench.txt', help='File containing search queries (one per line)')
     parser.add_argument('--results', type=int, default=20, help='Number of results to retrieve per query (default: 10)')
     parser.add_argument('--min-chars', type=int, default=32, help='Minimum characters required for a result (default: 1000)')
-    parser.add_argument('--output', type=str, default='./data/novelty_bench_search_results.json', help='Output file name (default: search_results.json)')
+    parser.add_argument('--output', type=str, default='./data/issue_bench_search_results.json', help='Output file name (default: search_results.json)')
     args = parser.parse_args()
 
     all_results = process_queries_from_file(args.query_file, args.results, args.min_chars, DEFAULT_IGNORED_DOMAINS)
@@ -161,7 +154,8 @@ def main():
             'timestamp': time.strftime('%Y-%m-%d %H:%M:%S'),
             'queries': {}
         }
-
+        #tqdm
+        
         for query, results in all_results.items():
             json_data['queries'][query] = results
         json.dump(json_data, f, indent=2, ensure_ascii=False)
