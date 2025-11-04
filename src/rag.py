@@ -141,7 +141,7 @@ def main():
     callback_manager = CallbackManager([token_handler])
 
     queries: Dict[str, Any] = {}
-    for query, sources in tqdm(data.get("queries", {}).items()):
+    for query, sources in data.get("queries", {}).items():
         for i, s in enumerate(sources):
             text = s.get("text", "").strip()
             url = s.get("url", "").strip()

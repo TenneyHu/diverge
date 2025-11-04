@@ -1,2 +1,3 @@
 data/*.json
 nohup.out
+results/temp

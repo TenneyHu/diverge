@@ -5,6 +5,51 @@ from transformers import AutoModel
 import torch
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
+from openai import OpenAI
+from tqdm import tqdm
+
+def view_diversity(queries, k=5):
+    diversities = []
+    client = OpenAI()
+    prompt_template = """You will be presented with {k} responses to the same prompt.
+        Your task is to analyze how many distinct viewpoints or reasoning frameworks are expressed across the responses.
+
+        Prompt:
+        {input}
+
+        Responses:
+        {response_list}
+
+        Please determine:
+        1. How many *distinct viewpoints* are represented (for example, if several responses share the same reasoning or conclusion, they count as one viewpoint).
+        2. Give a short explanation describing what these different viewpoints are.
+
+        Output your response in the following format:
+
+        Distinct Viewpoints: N
+        Explanation: <one-line short summary of each viewpoint>"""
+
+    for qid, (query, answers) in tqdm(queries.items()):
+        response_list = "\n\n".join([f"Response {i+1}: {a}" for i, a in enumerate(answers)])
+        prompt = prompt_template.format(k=k, input=query, response_list=response_list)
+
+        raw_response = client.responses.create(
+                model="gpt-5-mini",
+                input=prompt,
+            ).output_text.strip()
+        try:
+            response = raw_response.split("\n")[0].strip().split(":")[1].strip()
+            score = int(response) 
+            diversities.append(score)
+        except:
+            print(f"Error processing response for query {qid}: {raw_response}")
+
+        print(raw_response)
+
+    view_diversity_score = np.mean(diversities) if diversities else 0
+    print(f"View Diversity Score: {round(view_diversity_score, 3)}")
+    
 
 def lexical_diversity(text_dict, max_n=3):
     def get_ngrams(tokens, n):
@@ -30,13 +75,13 @@ def lexical_diversity(text_dict, max_n=3):
     return sum(per_input_avg_ratios) / len(per_input_avg_ratios) if per_input_avg_ratios else 0.0
 
 def quality_score(args, queries):
-    device = args.device
+
     model_name = args.reward_model
     rm = AutoModelForSequenceClassification.from_pretrained(
         model_name,
         torch_dtype=torch.bfloat16,
-        device_map=device,
-        attn_implementation="flash_attention_2",
+        device_map="auto",
+        attn_implementation="eager",
         num_labels=1,
     )
     tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -46,43 +91,58 @@ def quality_score(args, queries):
         for answer in answers:
             conv1 = [{"role": "user", "content": query}, {"role": "assistant", "content": answer}]
             convs.append(conv1)
+
     for conv in convs:
-        conv1_formatted = tokenizer.apply_chat_template(conv1, tokenize=False)
+        conv1_formatted = tokenizer.apply_chat_template(conv, tokenize=False)
         if tokenizer.bos_token is not None and conv1_formatted.startswith(tokenizer.bos_token):
             conv1_formatted = conv1_formatted[len(tokenizer.bos_token):]
-        conv1_tokenized = tokenizer(conv1_formatted, return_tensors="pt").to(device)
+        conv1_tokenized = tokenizer(conv1_formatted, return_tensors="pt").to(args.device)
         with torch.no_grad():
             score1 = rm(**conv1_tokenized).logits[0][0].item()
         scores.append(score1)
+
     avg_score = sum(scores) / len(scores) if scores else 0.0
+
+    #2-digit output
+    avg_score = round(avg_score, 3)
     print(f"Average Quality Score: {avg_score}")
-    print(f"len scores: {len(scores)}")
 
 def semantic_diversity(model, qid_to_texts):
     diversities = []
+    device = next(model.parameters()).device
+    
     for texts in qid_to_texts.values():
         if len(texts) < 2:
             continue
-        embeddings = model.encode(texts, show_progress_bar=False)
-        similarity_matrix = cosine_similarity(embeddings)
-        upper_triangular = similarity_matrix[np.triu_indices(len(texts), k=1)]
-        diversity = 1 - np.mean(upper_triangular)
+        embeddings = model.encode(texts, show_progress_bar=False, convert_to_tensor=True)
+        embeddings = embeddings.to(device)
+        
+        # Compute cosine similarity using PyTorch
+        norm = torch.nn.functional.normalize(embeddings, p=2, dim=1)
+        similarity_matrix = torch.mm(norm, norm.t())
+        
+        # Get upper triangular part
+        upper_triangular = similarity_matrix[torch.triu_indices(len(texts), len(texts), offset=1)]
+        diversity = 1 - torch.mean(upper_triangular).item()
         diversities.append(diversity)
+    
     return np.mean(diversities) if diversities else 0
 
 
 def main():
     parser = argparse.ArgumentParser(description="Compute Diversity")
-    parser.add_argument("--query_path", type=str, default="./data/novelty-bench.txt", help="Path to query file")
-    parser.add_argument("--input_path", type=str, default="./results/baselines/nolvelty-bench_gpt-5-mini.txt", help="Path to input JSON file")
+    parser.add_argument("--query_path", type=str, default="./data/issue-bench.txt", help="Path to query file")
+    parser.add_argument("--input_path", type=str, default="./results/baselines/issue-bench_gpt-5-mini.txt", help="Path to input JSON file")
     parser.add_argument("--reward_model", type=str, default="Skywork/Skywork-Reward-V2-Llama-3.1-8B", help="Path to reward model")
     parser.add_argument("--quality", action="store_true", help="Whether to evaluate quality using reward model")
+    parser.add_argument("--surface_diversity", action="store_true", help="Whether to evaluate surface diversity using reward model")
+    parser.add_argument("--view_diversity", action="store_true", help="Whether to evaluate view diversity using reward model")
     parser.add_argument("--device", type=str, default="cuda:0", help="Device to use for inference")
     args = parser.parse_args()
     
-    
+    device = torch.device(args.device if torch.cuda.is_available() else "cpu")
 
-    model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+
 
     data = {}
     queries = {}
@@ -111,9 +171,17 @@ def main():
     if args.quality:
         quality_score(args, queries)
 
-    diversity_score = lexical_diversity(data, max_n=3)
-    print(f"Lexical Diversity Score: {diversity_score}")
-    print (f"Semantic Diversity Score: {semantic_diversity(model, data)}")
+    if args.surface_diversity:
+        model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+        model = model.to(device)
+        diversity_score = lexical_diversity(data, max_n=3)
+        diversity_score = round(diversity_score, 3)
+        print(f"Lexical Diversity Score: {diversity_score}")
+        print (f"Semantic Diversity Score: {round(semantic_diversity(model, data), 3)}")
+    
+    if args.view_diversity:
+        view_diversity(queries)
+
 
 
 

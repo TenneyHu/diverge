@@ -1,26 +1,23 @@
-Evaluating results/baselines/novelty-bench_gpt-4.1-mini_0.4.txt ...
-Lexical Diversity Score: 0.3958464787371603
-Semantic Diversity Score: 0.08485670387744904
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:05<00:00,  1.28s/it]
+Average Quality Score: 18.574
+Lexical Diversity Score: 0.396
+Semantic Diversity Score: 0.068
 Evaluating results/baselines/novelty-bench_gpt-4.1-mini_0.7.txt ...
-Lexical Diversity Score: 0.4551777266052015
-Semantic Diversity Score: 0.11090220510959625
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:04<00:00,  1.22s/it]
+Average Quality Score: 18.476
+Lexical Diversity Score: 0.455
+Semantic Diversity Score: 0.089
 Evaluating results/baselines/novelty-bench_gpt-4.1-mini_1.0.txt ...
-Lexical Diversity Score: 0.5119763810279392
-Semantic Diversity Score: 0.1467738002538681
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:25<00:00,  6.38s/it]
+Average Quality Score: 18.23
+Lexical Diversity Score: 0.512
+Semantic Diversity Score: 0.117
 Evaluating results/baselines/novelty-bench_gpt-4.1-mini_1.3.txt ...
-Lexical Diversity Score: 0.5558217862127026
-Semantic Diversity Score: 0.17737948894500732
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:05<00:00,  1.49s/it]
+Average Quality Score: 18.166
+Lexical Diversity Score: 0.582
+Semantic Diversity Score: 0.148
 
-
-Evaluating results/rag/novelty-bench_gpt-4.1-mini_0.4.txt ...
-Lexical Diversity Score: 0.3715283017799522
-Semantic Diversity Score: 0.07413686066865921
-Evaluating results/rag/novelty-bench_gpt-4.1-mini_0.7.txt ...
-Lexical Diversity Score: 0.46089397792660736
-Semantic Diversity Score: 0.1089584156870842
-Evaluating results/rag/novelty-bench_gpt-4.1-mini_1.0.txt ...
-Lexical Diversity Score: 0.4861296591031352
-Semantic Diversity Score: 0.12961642444133759
-Evaluating results/rag/novelty-bench_gpt-4.1-mini_1.3.txt ...
-Lexical Diversity Score: 0.5706600046599525
-Semantic Diversity Score: 0.16156822443008423
+[18.574, 18.476, 18.23, 18.166]
+[0.396, 0.455, 0.512, 0.582]
+[0.068, 0.089, 0.117, 0.148]
