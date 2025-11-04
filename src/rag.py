@@ -134,8 +134,11 @@ def main():
 
     with open(args.data_path, "r", encoding="utf-8") as f:
         data = json.load(f)
+    if args.temperature is not None:
+        Settings.llm = OpenAI(model=args.llm_model, temperature=args.temperature)
+    else:
+        Settings.llm = OpenAI(model=args.llm_model)
 
-    Settings.llm = OpenAI(model=args.llm_model, temperature=args.temperature)
     Settings.embed_model = OpenAIEmbedding(model=args.embed_model)
     token_handler = TokenCountingHandler()
     callback_manager = CallbackManager([token_handler])
@@ -158,9 +161,11 @@ def main():
 
     if not queries:
         raise ValueError("No documents found.")
-
-    output_dir = args.output_path +  args.dataset + "_" + args.llm_model + "_" + str(args.temperature) + ".txt"
-
+    if args.temperature is not None:
+            output_dir = args.output_path +  args.dataset + "_" + args.llm_model + "_" + str(args.temperature) + ".txt"
+    else:
+            output_dir = args.output_path +  args.dataset + "_" + args.llm_model + ".txt"
+            
     if args.shuffle:
         output_dir = output_dir.replace(".txt", "_shuffled.txt")
     

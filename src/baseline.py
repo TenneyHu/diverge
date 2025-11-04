@@ -12,7 +12,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--output_filedir", type=str, default="./results/baselines/", help="Output directory")
     p.add_argument("--llm_model", type=str, default="gpt-5-mini", help="OpenAI model name")
     p.add_argument("--max_concurrency", type=int, default=20, help="Max concurrent requests")
-    p.add_argument("--temperature", type=float, default=0.7, help="Sampling temperature for LLM")
+    p.add_argument("--temperature", type=float, default=None, help="Sampling temperature for LLM")
     return p.parse_args()
 
 
@@ -27,11 +27,17 @@ async def main_async(args):
 
     async def one_request(idx, trial, query):
         async with sem:
-            resp = await client.responses.create(
-                model=args.llm_model,
-                input=query,
-                temperature=args.temperature
-            )
+            if args.temperature is not None:
+                resp = await client.responses.create(
+                    model=args.llm_model,
+                    input=query,
+                    temperature=args.temperature
+                )
+            else:
+                resp = await client.responses.create(
+                    model=args.llm_model,
+                    input=query
+                )
             ans = resp.output_text.strip().replace("\n", " ")
             return f"{trial+1}|{idx+1}: {ans}\n"
 
