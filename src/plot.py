@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-
+'''
 closebook_llm = {
     "quality": [18.574, 18.476, 18.23, 18.166],
     "lexical_diversity": [0.4, 0.46, 0.512, 0.582],
@@ -15,6 +15,23 @@ rag = {
     "semantic_diversity": [0.059, 0.087, 0.104, 0.129]
 }
 labels = ["t=0.4", "t=0.7", "t=1.0", "t=1.3"]
+'''
+
+
+closebook_llm = {
+        "quality": [18.87, 20.64, 18.355],
+        "lexical_diversity": [0.652, 0.628, 0.581],
+        "semantic_diversity": [0.195, 0.188, 0.219],
+}
+
+rag ={
+    "quality": [11.027, 14.299, 12.156],
+    "lexical_diversity": [0.511, 0.53, 0.452],
+    "semantic_diversity": [0.181, 0.166, 0.147],
+}
+
+
+labels = ["GPT5-nano", "GPT5-mini", "GPT5"]
 
 def smooth_curve(x, y, num=300):
     x = np.array(x)

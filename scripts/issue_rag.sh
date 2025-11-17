@@ -8,8 +8,9 @@ python ./src/rag.py \
     --dataset $DATASET \
     --data_path $INPUT \
     --llm_model $MODEL \
-    --shuffle \
+    --search_only \
     --max_concurrency $MAX_CONCURRENCY
+
 
 
 echo "✅ All runs completed!"

@@ -9,6 +9,41 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 from openai import OpenAI
 from tqdm import tqdm
 
+
+def load_deberta_tokenizer_and_model():
+    DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+    tokenizer = AutoTokenizer.from_pretrained("microsoft/deberta-v3-large")
+    model = AutoModelForSequenceClassification.from_pretrained(
+        "yimingzhang/deberta-v3-large-generation-similarity"
+    ).to(DEVICE)
+    model.eval()
+    return tokenizer, model
+    
+@torch.inference_mode()
+async def classifier_score(prompt: str, s1: str, s2: str):
+    tokenizer, model = load_deberta_tokenizer_and_model()
+    input_ids = [tokenizer.cls_token_id]
+    for s in [s1, s2]:
+        input_ids.extend(
+            tokenizer.encode(
+                s,
+                truncation=True,
+                max_length=128,
+                add_special_tokens=False,
+            )
+        )
+        input_ids.append(tokenizer.sep_token_id)
+        prompt_len = input_ids.index(tokenizer.sep_token_id) + 1
+    token_type_ids = [0] * prompt_len + [1] * (len(input_ids) - prompt_len)
+
+    DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+    iids = torch.tensor(input_ids, device=DEVICE, dtype=torch.int64)
+    tids = torch.tensor(token_type_ids, device=DEVICE, dtype=torch.int64)
+
+    outputs = model(input_ids=iids.unsqueeze(0), token_type_ids=tids.unsqueeze(0))
+    score = outputs["logits"].softmax(-1)[0, 1]
+    return score.cpu().item()
+
 def view_diversity(queries, k=5):
     diversities = []
     client = OpenAI()
@@ -100,7 +135,7 @@ def quality_score(args, queries):
         with torch.no_grad():
             score1 = rm(**conv1_tokenized).logits[0][0].item()
         scores.append(score1)
-
+    
     avg_score = sum(scores) / len(scores) if scores else 0.0
 
     #2-digit output

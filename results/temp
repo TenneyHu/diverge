@@ -1,23 +1,27 @@
-Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:05<00:00,  1.28s/it]
-Average Quality Score: 18.574
-Lexical Diversity Score: 0.396
-Semantic Diversity Score: 0.068
-Evaluating results/baselines/novelty-bench_gpt-4.1-mini_0.7.txt ...
-Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:04<00:00,  1.22s/it]
-Average Quality Score: 18.476
-Lexical Diversity Score: 0.455
-Semantic Diversity Score: 0.089
-Evaluating results/baselines/novelty-bench_gpt-4.1-mini_1.0.txt ...
-Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:25<00:00,  6.38s/it]
-Average Quality Score: 18.23
-Lexical Diversity Score: 0.512
-Semantic Diversity Score: 0.117
-Evaluating results/baselines/novelty-bench_gpt-4.1-mini_1.3.txt ...
-Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:05<00:00,  1.49s/it]
-Average Quality Score: 18.166
-Lexical Diversity Score: 0.582
-Semantic Diversity Score: 0.148
+GPT5-nano
+Average Quality Score: 18.87
+Lexical Diversity Score: 0.652
+Semantic Diversity Score: 0.195
 
-[18.574, 18.476, 18.23, 18.166]
-[0.396, 0.455, 0.512, 0.582]
-[0.068, 0.089, 0.117, 0.148]
+GPT5-mini
+Average Quality Score: 20.64
+Lexical Diversity Score: 0.628
+Semantic Diversity Score: 0.188
+
+GPT5
+Average Quality Score: 18.355
+Lexical Diversity Score: 0.581
+Semantic Diversity Score: 0.219
+
+GPT5-RAG
+Average Quality Score: 12.156
+Lexical Diversity Score: 0.452
+Semantic Diversity Score: 0.147
+GPT5-mini-RAG
+Average Quality Score: 14.299
+Lexical Diversity Score: 0.53
+Semantic Diversity Score: 0.166
+GPT5-nano-RAG
+Average Quality Score: 11.027
+Lexical Diversity Score: 0.511
+Semantic Diversity Score: 0.181
