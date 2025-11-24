@@ -24,6 +24,22 @@ def slugify(text: str, max_len: int = 60) -> str:
     text = re.sub(r"[^a-z0-9\-_]+", "", text)
     return text[:max_len] if text else "q"
 
+def load_index_for_query(
+    query: str,
+    base_persist_dir: str,
+):
+    q_dir = Path(base_persist_dir) / slugify(query)
+
+    if not q_dir.exists():
+        return None
+    try:
+        storage_context = StorageContext.from_defaults(persist_dir=str(q_dir))
+        index = load_index_from_storage(storage_context=storage_context)
+        return index
+    except Exception as e:
+        print(f"[Index] Failed to load index for '{query}': {e}")
+        return None
+
 def build_or_load_index_for_query(
     query: str,
     docs: List[Document],
@@ -36,8 +52,8 @@ def build_or_load_index_for_query(
     index_files_exist = all((q_dir / f).exists() for f in REQUIRED_FILES)
 
     if index_files_exist and not rebuild:
-        storage_context = StorageContext.from_defaults(persist_dir=str(q_dir))
         try:
+            storage_context = StorageContext.from_defaults(persist_dir=str(q_dir))
             index = load_index_from_storage(storage_context=storage_context)
             return index
         except Exception as e:
@@ -64,39 +80,10 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--search_only", action="store_true", help="Only search without llms.")
     p.add_argument("--temperature", type=float, default=1.0, help="Sampling temperature for LLM")
     p.add_argument("--max_concurrency", type=int, default=50, help="Max in-flight LLM calls")
+    p.add_argument("--mmr", type=int, default=0, help="MMR threshold for diversity pruning")
+  
     return p.parse_args()
 
-async def run_all_queries_search_only(queries, args, f):
-    sem = asyncio.Semaphore(args.max_concurrency)
-
-    async def one_trial(idx, query, local_nodes):
-        async with sem:
-            lines = []
-            for n_i, n in enumerate(local_nodes):
-                text = n.get_content().strip().replace("\n", " ")
-                lines.append(f"{n_i+1}|{idx+1}: {text}\n")
-            return "".join(lines)
-
-    tasks = []
-    for idx, (query, docs) in enumerate(queries.items()):
-        index = build_or_load_index_for_query(
-            query=query,
-            docs=docs,
-            base_persist_dir=args.persist_dir,
-            rebuild=args.rebuild,
-        )
-        retriever = index.as_retriever(similarity_top_k=args.top_k)
-        retrieved_nodes = retriever.retrieve(query)
-        
-        local_nodes = list(retrieved_nodes)
-        tasks.append(
-            asyncio.create_task(
-                one_trial(idx, query, local_nodes)
-            )
-        )
-
-    results = await asyncio.gather(*tasks)
-    f.writelines(results)
 
 async def run_all_queries(queries, args, f):
     sem = asyncio.Semaphore(args.max_concurrency)
@@ -115,7 +102,15 @@ async def run_all_queries(queries, args, f):
             base_persist_dir=args.persist_dir,
             rebuild=args.rebuild,
         )
-        retriever = index.as_retriever(similarity_top_k=args.top_k)
+        # Configure optional node postprocessors for retrieval
+        node_postprocessors = []
+        if args.mmr == 1:
+
+            retriever = index.as_retriever(similarity_top_k=args.top_k, vector_store_query_mode="mmr")
+        else:
+            retriever = index.as_retriever(similarity_top_k=args.top_k)
+        
+
         retrieved_nodes = retriever.retrieve(query)
         synthesizer = get_response_synthesizer()
 
@@ -187,7 +182,10 @@ def main():
 
         if args.shuffle:
             output_dir = output_dir.replace(".txt", "_shuffled.txt")
-        
+            
+        if args.mmr > 0:
+            output_dir = output_dir.replace(".txt", f"_mmr.txt")
+
         with open(output_dir, "w", encoding="utf-8") as f:
             asyncio.run(run_all_queries(queries, args, f))
 

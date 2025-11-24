@@ -1,5 +1,5 @@
 FILELIST1=(
-    "results/rag/novelty-bench_search_only.txt"
+    "results/rag/novelty-bench_gpt-5-mini_1.0.txt"
 )
 
 QUERY="./data/novelty-bench.txt"

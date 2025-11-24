@@ -30,7 +30,7 @@ def google_search(query, num_results=10, min_chars=32, ignored_domains=None, ver
             search_results = [r for r in ddgs.text(query, max_results=2 * num_results)]
             for r in search_results:
                 url = r["href"]
-                print (f"Debug: Retrieved URL: {url}")
+                #print (f"Debug: Retrieved URL: {url}")
                 urls_processed += 1
                 if verbose:
                     print(f"Found URL ({urls_processed}): {url}")

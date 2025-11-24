@@ -1,0 +1,1000 @@
+1|1: Tell me a story in five sentences about a girl and her dog.
+1|2: Tell me a story in five sentences about a girl and her dog in a whimsical fairy-tale tone.
+1|3: Tell me a story in five sentences about a girl and her dog told from the girl's first-person perspective.
+1|4: Tell me a story in five sentences about a girl and her dog from the dog's point of view.
+1|5: Tell me a story in five sentences about a girl and her dog with a gentle bittersweet mood.
+1|6: Tell me a story in five sentences about a girl and her dog that is lighthearted and comedic.
+1|7: Tell me a story in five sentences about a girl and her dog on a small, surprising adventure.
+1|8: Tell me a story in five sentences about a girl and her dog with a touch of mystery and suspense.
+1|9: Tell me a story in five sentences about a girl and her dog written in a lyrical, poetic style.
+1|10: Tell me a story in five sentences about a girl and her dog that would make a comforting bedtime tale.
+2|1: Tell me a story in five sentences about a boy and his dog in a whimsical tone.
+2|2: Tell me a story in five sentences about a boy and his dog from the dog's perspective.
+2|3: Tell me a story in five sentences about a boy and his dog set in a small coastal town.
+2|4: Tell me a story in five sentences about a boy and his dog with a bittersweet mood.
+2|5: Tell me a story in five sentences about a boy and his dog written as a short mystery.
+2|6: Tell me a story in five sentences about a boy and his dog in lyrical, poetic prose.
+2|7: Tell me a story in five sentences about a boy and his dog focusing on a single meaningful day.
+2|8: Tell me a story in five sentences about a boy and his dog that highlights their friendship through ordinary details.
+2|9: Tell me a story in five sentences about a boy and his dog in a humorous, lighthearted voice.
+2|10: Tell me a story in five sentences about a boy and his dog in which the boy learns an important lesson.
+3|1: Tell me the plot line in 5 sentences for a romcom movie set in rural Kansas for Easter, told with warm, cozy humor.
+3|2: Tell me the plot line in 5 sentences for a romcom movie set in rural Kansas for Easter, written in a witty, fast-paced style.
+3|3: Tell me the plot line in 5 sentences for a romcom movie set in rural Kansas for Easter, narrated from the female lead’s first-person perspective.
+3|4: Tell me the plot line in 5 sentences for a romcom movie set in rural Kansas for Easter, with a bittersweet but hopeful tone.
+3|5: Tell me the plot line in 5 sentences for a romcom movie set in rural Kansas for Easter, focused on family dynamics and small-town traditions.
+3|6: Tell me the plot line in 5 sentences for a romcom movie set in rural Kansas for Easter, written like a snappy romcom logline sequence.
+3|7: Tell me the plot line in 5 sentences for a romcom movie set in rural Kansas for Easter, with a quirky, offbeat sense of humor.
+3|8: Tell me the plot line in 5 sentences for a romcom movie set in rural Kansas for Easter, from the perspective of a long-time local who knows everyone’s secrets.
+3|9: Tell me the plot line in 5 sentences for a romcom movie set in rural Kansas for Easter, emphasizing romantic misunderstandings and comic mishaps.
+3|10: Tell me the plot line in 5 sentences for a romcom movie set in rural Kansas for Easter, described in vivid, cinematic language.
+4|1: Write a contemplative haiku about a whale and a walnut tree.
+4|2: Compose a playful haiku about a whale and a walnut tree.
+4|3: Write a haiku about a whale and a walnut tree from the whale's perspective.
+4|4: Write a haiku about a whale and a walnut tree from the walnut tree's perspective.
+4|5: Craft a melancholic haiku about a whale and a walnut tree.
+4|6: Create a surreal haiku that connects a whale and a walnut tree.
+4|7: Write a minimalist haiku about a whale and a walnut tree.
+4|8: Compose a lyrical haiku about a whale and a walnut tree.
+4|9: Write a childlike haiku about a whale and a walnut tree.
+4|10: Compose a nature-imagery haiku about a whale and a walnut tree.
+5|1: Write a short love poem with 4 lines in a romantic tone.
+5|2: Write a short love poem with 4 lines that is playful and lighthearted.
+5|3: Write a short love poem with 4 lines in a melancholic mood.
+5|4: Write a short love poem with 4 lines from the first-person perspective.
+5|5: Write a short love poem with 4 lines using simple, minimalist language.
+5|6: Write a short love poem with 4 lines in a classic, timeless style.
+5|7: Write a short love poem with 4 lines about long-distance love.
+5|8: Write a short love poem with 4 lines using vivid nature imagery.
+5|9: Write a short love poem with 4 lines in a modern, conversational voice.
+5|10: Write a short love poem with 4 lines that is tender and hopeful.
+6|1: Write a short four-line poem of hatred.
+6|2: Compose a 4-line poem of seething hatred directed at a betrayer.
+6|3: Write a concise 4-line poem of raw hatred in the first person.
+6|4: Create a 4-line hateful poem with a vengeful, snarling tone.
+6|5: Write a short 4-line poem of cold, quiet hatred toward an ex-lover.
+6|6: Compose a 4-line poem of burning hatred aimed at a rival.
+6|7: Write a compact 4-line poem of venomous hatred using stark imagery.
+6|8: Compose a 4-line poem of hateful sarcasm and mocking contempt.
+6|9: Write a short 4-line poem of focused hatred from an outsider’s perspective.
+6|10: Create a minimalist 4-line poem that channels intense, concentrated hatred.
+7|1: Write a short fable about a lemur and a light bulb with a clear moral about curiosity.
+7|2: Write a short fable about a lemur and a light bulb told in a playful, child-friendly tone.
+7|3: Write a short fable about a lemur and a light bulb from the light bulb’s first-person perspective.
+7|4: Write a short fable about a lemur and a light bulb in a dark, gothic mood.
+7|5: Write a short fable about a lemur and a light bulb as a brief allegory about innovation and caution.
+7|6: Write a short fable about a lemur and a light bulb in the style of a classic Aesop-like parable.
+7|7: Write a short fable about a lemur and a light bulb using minimalist, poetic language.
+7|8: Write a short fable about a lemur and a light bulb that ends with a surprising twist.
+7|9: Write a short fable about a lemur and a light bulb written as a conversational exchange.
+7|10: Write a short fable about a lemur and a light bulb that explores the theme of loneliness and companionship.
+8|1: Write a short biography of a made-up historic figure that includes their birth and death dates, their profession, and their greatest contribution.
+8|2: Compose a concise, slightly humorous biography of a fictional historical figure stating their birth and death dates, profession, and greatest contribution.
+8|3: Draft a solemn, obituary-style short biography for an invented historical person, including birth and death dates, profession, and greatest contribution.
+8|4: Write a brief, poetic biography of a made-up historic character that lists their birth and death dates, profession, and most significant contribution.
+8|5: Create a short, encyclopedia-style biography of a fictional historical figure with their birth and death dates, profession, and greatest contribution.
+8|6: Write a one-paragraph, first-person short biography of an imagined historical figure including their birth and death dates, profession, and greatest contribution.
+8|7: Compose a short, dramatic biography of a made-up historical figure that includes birth and death dates, profession, and their greatest contribution.
+8|8: Produce a concise, classroom-friendly biography of a fictional historical figure with birth and death dates, profession, and greatest contribution.
+8|9: Write a short, satirical biography of an invented historic figure that states their birth and death dates, profession, and greatest contribution.
+8|10: Create a brief, mystery-tinged biography of a made-up historical figure including their birth and death dates, profession, and their greatest contribution.
+9|1: In my game where a human child falls into a magical underground world full of monsters and must find a way back to the surface, invent a monster type and briefly describe its backstory.
+9|2: For a darker, horror-leaning version of my game—where a human child falls into a magical underground world full of monsters seeking a way home—describe a terrifying monster and its brief origin story.
+9|3: In a whimsical take on my game about a human child falling into a magical underground world full of monsters while trying to reach the surface, create a playful monster and a short, charming backstory.
+9|4: For a tragic, sympathetic creature in my game where a human child falls into a magical underground world full of monsters to find the surface, propose a monster type and a concise sorrowful backstory.
+9|5: From the perspective of an underground dweller in my game—where a human child falls into a magical underground world full of monsters on a quest to return to the surface—narrate a monster type and its brief folkloric backstory.
+9|6: In my puzzle-focused game where a human child falls into a magical underground world full of monsters and must reach the surface, suggest a monster whose behavior creates gameplay challenges and give a short backstory explaining why.
+9|7: For my game about a human child who falls into a magical underground world full of monsters and needs to find the surface, imagine a monster that unexpectedly acts as a guide or ally and summarize its brief backstory.
+9|8: In a psychological-leaning version of my game where a human child falls into a magical underground world full of monsters to get back to the surface, describe a memory-mirroring monster and its short, eerie backstory.
+9|9: For a comic-relief creature in my game—where a human child falls into a magical underground world full of monsters and aims to return to the surface—invent a silly monster and give a brief, humorous backstory.
+9|10: In an epic/mythic framing of my game where a human child falls into a magical underground world full of monsters seeking the surface, create an ancient guardian-type monster and concisely recount its legendary backstory.
+10|1: I am working on a memoir of a computer science PhD student who worked on machine translation in the 1990s; suggest a single title and nothing else.
+10|2: I'm writing a reflective memoir as a computer science PhD student who worked on machine translation in the 1990s—suggest a single title and nothing else.
+10|3: I am crafting a lyrical memoir of a computer science PhD student who worked on machine translation in the 1990s; suggest a single title and nothing else.
+10|4: I am preparing a candid memoir by a computer science PhD student who worked on machine translation in the 1990s; suggest a single title and nothing else.
+10|5: I am working on a humorous memoir of a computer science PhD student who worked on machine translation in the 1990s; suggest a single title and nothing else.
+10|6: I am composing a terse, punchy memoir of a computer science PhD student who worked on machine translation in the 1990s; suggest a single title and nothing else.
+10|7: I am writing an academic memoir of a computer science PhD student who worked on machine translation in the 1990s; suggest a single title and nothing else.
+10|8: I am drafting a noir-style memoir of a computer science PhD student who worked on machine translation in the 1990s; suggest a single title and nothing else.
+10|9: I am working on a nostalgic memoir of a computer science PhD student who worked on machine translation in the 1990s; suggest a single title and nothing else.
+10|10: I am writing an experimental memoir of a computer science PhD student who worked on machine translation in the 1990s; suggest a single title and nothing else.
+11|1: Write a short story that has three main characters Alice, Bob, and Mallory.
+11|2: Write a short noir story that has three main characters Alice, Bob, and Mallory.
+11|3: Write a short humorous story that has three main characters Alice, Bob, and Mallory.
+11|4: Write a short science-fiction story that has three main characters Alice, Bob, and Mallory.
+11|5: Write a short story told from Alice's first-person perspective that has three main characters Alice, Bob, and Mallory.
+11|6: Write a short epistolary story composed of letters that has three main characters Alice, Bob, and Mallory.
+11|7: Write a short suspenseful story that has three main characters Alice, Bob, and Mallory.
+11|8: Write a short tragic story that has three main characters Alice, Bob, and Mallory.
+11|9: Write a short whimsical fable that has three main characters Alice, Bob, and Mallory.
+11|10: Write a short story told alternately from the perspectives of Alice, Bob, and Mallory that has three main characters Alice, Bob, and Mallory.
+12|1: Tell me a classic dad joke.
+12|2: Tell me a groan-worthy dad joke.
+12|3: Tell me a punny dad joke.
+12|4: Tell me a short one-line dad joke.
+12|5: Tell me a corny dad joke about food.
+12|6: Tell me a dad joke in a mock-serious tone.
+12|7: Tell me a holiday-themed dad joke.
+12|8: Tell me a dad joke as if told to a child.
+12|9: Tell me an intentionally bad dad joke.
+12|10: Tell me a wholesome dad joke.
+13|1: Tell me a hilarious joke.
+13|2: Tell me a clever one-liner joke.
+13|3: Tell me a silly punny joke.
+13|4: Tell me a witty, short joke.
+13|5: Tell me a wholesome, funny joke.
+13|6: Tell me a sarcastic, funny joke.
+13|7: Tell me a dry, funny joke.
+13|8: Tell me a goofy, absurd joke.
+13|9: Tell me a lighthearted joke about everyday life.
+13|10: Tell me a classic knock-knock joke that's funny.
+14|1: Tell me a riddle.
+14|2: Tell me a short, playful riddle.
+14|3: Tell me a dark, spooky riddle.
+14|4: Tell me a clever, difficult riddle.
+14|5: Tell me a rhyming riddle.
+14|6: Tell me a riddle suitable for a child.
+14|7: Tell me a riddle in the voice of an old storyteller.
+14|8: Tell me a riddle about an everyday object.
+14|9: Tell me a logical riddle that requires deduction.
+14|10: Tell me a riddle that sounds like a mystery clue.
+15|1: Write a one-sentence happy new year text to my friend.
+15|2: Write a one-sentence heartfelt Happy New Year text to my friend.
+15|3: Write a one-sentence funny Happy New Year text to my friend.
+15|4: Write a one-sentence playful Happy New Year text to my friend with an emoji.
+15|5: Write a one-sentence poetic Happy New Year text to my friend.
+15|6: Write a one-sentence short and sweet Happy New Year text to my friend.
+15|7: Write a one-sentence encouraging Happy New Year text to my friend about new beginnings.
+15|8: Write a one-sentence nostalgic Happy New Year text to my friend reminiscing about the past year.
+15|9: Write a one-sentence formal Happy New Year text to my friend.
+15|10: Write a one-sentence optimistic Happy New Year text to my friend wishing them success.
+16|1: What would you invent, if anything, to make the world a more interesting place to live in?
+16|2: What would you invent from a child's imagination to make the world a more interesting place to live in?
+16|3: What would you invent as an artist to make the world a more interesting place to live in?
+16|4: What would you invent as a scientist or engineer to make the world a more interesting place to live in?
+16|5: What would you invent that brings more wonder into daily life to make the world a more interesting place to live in?
+16|6: What would you invent for your local community to make the world a more interesting place to live in?
+16|7: What would you invent in a futuristic or speculative setting to make the world a more interesting place to live in?
+16|8: What would you invent that changes how people connect to make the world a more interesting place to live in?
+16|9: What would you invent that adds more play and surprise to routine activities to make the world a more interesting place to live in?
+16|10: What would you invent purely for fun to make the world a more interesting place to live in?
+17|1: One whimsical thing you might find in a magical forest.
+17|2: One mysterious thing you might find in a moonlit magical forest.
+17|3: One rare creature you might find in an ancient magical forest.
+17|4: One enchanted object you might find in a secluded magical forest.
+17|5: One curious sound you might find in a silent magical forest.
+17|6: One helpful spirit you might find in a friendly magical forest.
+17|7: One eerie phenomenon you might find in a haunted magical forest.
+17|8: One small treasure you might find in an overgrown magical forest.
+17|9: One living landmark you might find in a sentient magical forest.
+17|10: One secret path you might find in a misty magical forest.
+18|1: What's the top item you would add to a grocery list for a memorable shopping experience?
+18|2: For a grocery trip you'll remember, what single top item would you add to your list?
+18|3: To make a grocery shopping trip unforgettable, what's the top item you'd put on your list?
+18|4: If you could add only one top item to a grocery list to make shopping memorable, what would it be?
+18|5: Which top item would you add to a grocery list to create a truly sensory, memorable shopping experience?
+18|6: As someone planning a family grocery outing, what's the top item you'd add to the list to make the trip memorable?
+18|7: For a gourmet-inspired grocery run you'll never forget, what's the single top item you'd add to your list?
+18|8: Wanting a memorable shopping experience without overspending, what top item would you add to a grocery list?
+18|9: Channeling your inner treasure hunter, what's the top item you'd add to a grocery list to make shopping feel memorable?
+18|10: To turn an ordinary grocery run into something memorable, what's the top item you'd add to your list?
+19|1: Imagine you are a time traveler who has just arrived in a new era; describe the first thing you notice.
+19|2: As a time traveler stepping into an unfamiliar era, describe the very first detail that catches your eye.
+19|3: You are a time traveler materializing in a different era—describe the first sound, sight, or smell that hits you.
+19|4: In the voice of an awestruck time traveler who has just arrived in a new era, describe the first thing you notice.
+19|5: Imagine you're a tired, battle-worn time traveler in a new era—describe the first thing you notice.
+19|6: As a cheerful time traveler emerging into a new era, describe the first thing that makes you smile.
+19|7: As a skeptical time traveler who has just arrived in a new era, describe the first thing that makes you doubt where—or when—you are.
+19|8: You are a time traveler appearing in a new era—describe the first technological or cultural detail that strikes you.
+19|9: Imagine you're a time traveler arriving in a strange era—describe the first small, overlooked detail you notice.
+19|10: As a time traveler arriving in a new era, describe the first thing you notice using vivid sensory language.
+20|1: Generate a realistic sound effect of a car passing by.
+20|2: Generate a distant, muffled sound effect of a car passing by at night.
+20|3: Generate a dramatic, high-speed car passing-by sound effect with a clear Doppler shift.
+20|4: Generate a soft, slow car passing-by sound effect for a calm suburban street.
+20|5: Generate an old, tinny car passing-by sound effect as if heard through a vintage radio.
+20|6: Generate a close-up, tire-squeal–accented sound effect of a car passing by.
+20|7: Generate an ambient, low-frequency rumble of a car passing by in the distance.
+20|8: Generate an intense, adrenaline-filled car passing-by sound effect for a chase moment.
+20|9: Generate a stereo panned left-to-right sound effect of a car passing by overhead.
+20|10: Generate a muted, rain-soaked car passing-by sound effect with wet-road reflections.
+21|1: For my new D&D campaign, give me a name for a half-elf paladin who pretends to be on the side of good but is secretly sabotaging the main heroes.
+21|2: In my new D&D campaign, suggest a grim-sounding name for a half-elf paladin who poses as a virtuous ally while covertly undermining the main heroes.
+21|3: For a D&D campaign, provide a noble-sounding name for a half-elf paladin who publicly acts righteous but is secretly sabotaging the protagonists.
+21|4: Help me name a half-elf paladin in my D&D campaign who plays the virtuous hero in public but is actually sabotaging the main heroes, with a name that hints at the hypocrisy.
+21|5: Give me a short, one- or two-syllable name for a half-elf paladin in my D&D campaign who pretends to be good but is secretly sabotaging the main heroes.
+21|6: For my D&D campaign, suggest a believable full name and knightly epithet for a half-elf paladin who masquerades as a champion of good while covertly sabotaging the main heroes.
+21|7: In my new D&D campaign, provide a tragic-sounding name for a half-elf paladin who outwardly serves the light but secretly sabotages the main heroes.
+21|8: For a D&D campaign, give me an elvish-tinged name for a half-elf paladin who hides treachery behind a façade of righteousness while sabotaging the main heroes.
+21|9: Suggest a plausible public name for a half-elf paladin in my D&D campaign who acts as a noble ally but is secretly sabotaging the main heroes, suitable for an undercover villain.
+21|10: In my D&D campaign, come up with a sinister-sounding name for a half-elf paladin who pretends to be on the side of good while covertly sabotaging the main heroes.
+22|1: Name the dog character in my story about a loyal dog.
+22|2: Suggest a fitting name for the dog character in my story about a loyal dog.
+22|3: Give a heartfelt name for the dog character in my story about a loyal dog.
+22|4: Pick a strong, heroic name for the dog character in my story about a loyal dog.
+22|5: Offer a playful name for the dog character in my story about a loyal dog.
+22|6: Choose an old-fashioned name for the dog character in my story about a loyal dog.
+22|7: Provide a poetic name for the dog character in my story about a loyal dog.
+22|8: Recommend a simple, memorable name for the dog character in my story about a loyal dog.
+22|9: Name the dog character in my story about a loyal dog from the dog's perspective.
+22|10: Name the dog character in my story about a loyal dog with a gentle, comforting tone.
+23|1: Name the dog character owned by the heroine in my romantic short story about a loyal medium-sized mixed breed dog with a fluffy scruffy tan coat.
+23|2: Give a name for the dog character owned by the heroine in my romantic short story featuring a loyal medium-sized mixed breed with a fluffy scruffy tan coat.
+23|3: Suggest a charming name for the dog character owned by the heroine in my romantic short story about a loyal, medium-sized mixed breed with a fluffy scruffy tan coat.
+23|4: From the heroine's perspective, name the dog character in my romantic short story about a loyal medium-sized mixed breed dog with a fluffy scruffy tan coat.
+23|5: Provide a whimsical name for the dog character owned by the heroine in my romantic short story about a loyal medium-sized mixed breed with a fluffy scruffy tan coat.
+23|6: Pick a cozy, romantic-appropriate name for the dog character owned by the heroine in my romantic short story about a loyal medium-sized mixed breed dog with a fluffy scruffy tan coat.
+23|7: Name the dog character owned by the heroine in my bittersweet romantic short story about a loyal medium-sized mixed breed dog with a fluffy scruffy tan coat.
+23|8: Suggest a timeless name for the dog character owned by the heroine in my romantic short story about a loyal medium-sized mixed breed dog with a fluffy scruffy tan coat.
+23|9: Offer a playful, endearing name for the dog character owned by the heroine in my romantic short story about a loyal medium-sized mixed breed with a fluffy scruffy tan coat.
+23|10: Name the dog character owned by the heroine in my contemporary romantic short story about a loyal medium-sized mixed breed dog with a fluffy scruffy tan coat.
+24|1: Suggest a name for a dappled-gray filly living in the mountains.
+24|2: Suggest a lyrical, poetic name for a dappled-gray filly living in the mountains.
+24|3: Suggest a short, one-word name for a dappled-gray filly living in the mountains.
+24|4: Suggest a whimsical, fairytale-style name for a dappled-gray filly living in the mountains.
+24|5: Suggest a strong, spirited name for a dappled-gray filly living in the mountains.
+24|6: Suggest a nature-inspired name for a dappled-gray filly living in the mountains.
+24|7: Suggest a mythic or legendary-sounding name for a dappled-gray filly living in the mountains.
+24|8: Suggest a gentle, soft-sounding name for a dappled-gray filly living in the mountains.
+24|9: Suggest a two-word name for a dappled-gray filly living in the mountains.
+24|10: Suggest an old-world, folklore-style name for a dappled-gray filly living in the mountains.
+25|1: I'm playing Club Penguin and I finally adopted my first puffle—what is one cute name I should give it?
+25|2: I'm playing Club Penguin and I finally adopted my first puffle—what is one quirky name you suggest?
+25|3: I'm playing Club Penguin and I finally adopted my first puffle—what is one cool name for it?
+25|4: I'm playing Club Penguin and I finally adopted my first puffle—what is one funny name I could use?
+25|5: I'm playing Club Penguin and I finally adopted my first puffle—what is one magical-sounding name for it?
+25|6: I'm playing Club Penguin and I finally adopted my first puffle—what is one short, one-word name I should pick?
+25|7: I'm playing Club Penguin and I finally adopted my first puffle—what is one adorable nickname I can call it?
+25|8: I'm playing Club Penguin and I finally adopted my first puffle—what is one mischievous name that would suit it?
+25|9: I'm playing Club Penguin and I finally adopted my first puffle—what is one elegant, royal name I could give it?
+25|10: I'm playing Club Penguin and I finally adopted my first puffle—what is one punny name you recommend?
+26|1: Name one person of Indian origin.
+26|2: Give the name of one person of Indian origin.
+26|3: Provide one example of a person of Indian origin.
+26|4: Who is one person of Indian origin?
+26|5: List one person of Indian origin.
+26|6: Tell me one person of Indian origin.
+26|7: Share the name of one person of Indian origin.
+26|8: Mention one person of Indian origin.
+26|9: Identify one person of Indian origin.
+26|10: Offer the name of one person of Indian origin.
+27|1: I'm naming my Indian son—what one name should I give him; I get anxious with multiple options so please give only one name.
+27|2: I'm choosing a name for my Indian son—please suggest just one name because multiple choices make me anxious.
+27|3: I'm naming my Indian son and I can only handle one suggestion—what single name should I pick?
+27|4: I'm looking for one name for my Indian son; I feel anxious when presented with many options, so please provide only one.
+27|5: I'm expecting an Indian son—what one name should I name him, and please only give me one because multiple options cause me anxiety.
+27|6: I'm naming my Indian son and need exactly one name—please give only one suggestion as I get anxious with lists.
+27|7: I'm choosing a name for my Indian baby boy—please advise a single name since multiple options make me anxious.
+27|8: I'm naming my Indian son and can only take one suggestion—what one name would you recommend?
+27|9: I'm selecting a name for my Indian son and I request only one name because I get anxious when given several options.
+27|10: I'm naming my Indian son; please recommend just one name, as multiple choices trigger my anxiety.
+28|1: I'm buying a handbag for my mother—name one handbag I should buy.
+28|2: Recommend one handbag I should buy for my mother.
+28|3: Name a single handbag I should buy for my mother.
+28|4: If you could pick only one handbag to buy for my mother, which would it be?
+28|5: Tell me just one handbag to buy for my mother.
+28|6: Pick one handbag I should buy for my mother.
+28|7: Give me one handbag recommendation for my mother.
+28|8: Only one handbag for my mother—what should I buy?
+28|9: Please name one handbag I should buy for my mother.
+28|10: One handbag to buy for my mother: name it.
+29|1: What's the best car to get in 2023—give me one single suggestion only.
+29|2: Tell me the one best car to buy in 2023; just a single recommendation.
+29|3: I need one clear answer: what’s the best car to get in 2023?
+29|4: Pick one car and tell me it’s the best to get in 2023—no other options.
+29|5: In 2023, which single car should I get? Only one suggestion, please.
+29|6: Give me one definitive best car to get in 2023 and nothing else.
+29|7: For 2023, name the single best car to buy—don’t list alternatives.
+29|8: Just one answer: what’s the best car to get in 2023?
+29|9: Recommend one single car as the best to get in 2023—no indecision.
+29|10: One pick only: what’s the best car to get in 2023?
+30|1: Suggest a thoughtful birthday gift for a friend's 25th birthday. Just one
+30|2: Suggest a humorous birthday gift for a friend's 25th birthday. Just one
+30|3: Suggest a luxurious birthday gift for a friend's 25th birthday. Just one
+30|4: Suggest a budget-friendly birthday gift for a friend's 25th birthday. Just one
+30|5: Suggest an experiential birthday gift for a friend's 25th birthday. Just one
+30|6: Suggest a handmade or DIY birthday gift for a friend's 25th birthday. Just one
+30|7: Suggest a sustainable or eco-friendly birthday gift for a friend's 25th birthday. Just one
+30|8: Suggest a last-minute birthday gift for a friend's 25th birthday. Just one
+30|9: Suggest a tech-savvy birthday gift for a friend's 25th birthday. Just one
+30|10: Suggest a sentimental or keepsake birthday gift for a friend's 25th birthday. Just one
+31|1: I'm doing online shopping for a high-quality summer dress; what are the first three stores/websites I should check?
+31|2: Looking to buy a high-quality summer dress online—which three stores or websites should I check first?
+31|3: Recommend the top three online stores or websites to check first when shopping for a high-quality summer dress.
+31|4: For online shopping for a high-quality summer dress, list the first three stores/websites to check.
+31|5: As I shop online for a high-quality summer dress, which three websites or stores should I visit first?
+31|6: Quickly name the first three online retailers or websites to check for a high-quality summer dress.
+31|7: Where should I look first online for a high-quality summer dress—give three stores or websites.
+31|8: I need three online stores/websites to check first for a high-quality summer dress; just list them.
+31|9: Suggest the first three websites or stores to browse online for a high-quality summer dress.
+31|10: Which three online shops or websites should I check first when shopping for a high-quality summer dress?
+32|1: I'm shopping online for a new leather wallet—what's the first store or website I should check out? Please give only one suggestion; I don't need your thought process.
+32|2: Doing online shopping for a new leather wallet: which single store or website should I visit first? Just give one suggestion, no explanation.
+32|3: Help me find a starting point for buying a new leather wallet online—what one store or website should I check first? Please only one suggestion and no reasoning.
+32|4: Quick: I'm buying a new leather wallet online—name the first store or website I should look at, and give just one suggestion without your thought process.
+32|5: I'm browsing online for a new leather wallet; what's the first website or store you recommend I check? Please only one suggestion and skip the explanation.
+32|6: As I shop online for a new leather wallet, which one store or website should I check first? One suggestion only, no extra commentary.
+32|7: For online shopping for a new leather wallet, what's the first shop or site you'd recommend I visit? Just one suggestion, please—no thinking-out-loud.
+32|8: Looking to buy a new leather wallet online—which single website or store should I check first? Please give only one suggestion and no rationale.
+32|9: I'm doing online shopping for a new leather wallet; tell me one store or website I should check out first and nothing else—no explanation needed.
+32|10: Buying a new leather wallet online—what's the first store/website I should check? Provide exactly one suggestion and no further commentary.
+33|1: Recommend one graphics card for productivity and light gaming with a budget of $1000 USD.
+33|2: As a PC builder, which single graphics card would you recommend for productivity tasks and light gaming within $1000 USD?
+33|3: Suggest one graphics card that balances productivity performance and light gaming for up to $1000 USD.
+33|4: I need one graphics card recommendation for productivity workloads and occasional light gaming, budget $1000 USD.
+33|5: Give one graphics card pick optimized for creative productivity and light gaming under $1000 USD.
+33|6: Choose one graphics card best suited to productivity and light gaming while staying within $1000 USD.
+33|7: From a value standpoint, recommend a single graphics card for productivity tasks plus light gaming, budget $1000 USD.
+33|8: Which one graphics card would you pick for serious productivity and casual light gaming with a $1000 USD limit?
+33|9: Provide one graphics card recommendation aimed at boosting productivity and enabling light gaming, capped at $1000 USD.
+33|10: In one recommendation, name a graphics card suitable for productivity and light gaming that costs no more than $1000 USD.
+34|1: What is the single best first phone for a teenager—provide only one phone as your recommendation?
+34|2: As a parent, which single phone is the best first phone for a teenager; recommend only one.
+34|3: From a teen’s perspective, what is the single best first phone for a teenager and name only one phone.
+34|4: Recommend the single best first phone for a teenager and state only one phone.
+34|5: From an expert standpoint, which single phone is the best first phone for a teenager—answer with only one phone.
+34|6: Name the single best first phone for a teenager and give only one phone as your recommendation.
+34|7: Considering practicality and ease of use, what is the single best first phone for a teenager; recommend only one phone.
+34|8: Decide the single best first phone for a teenager and report only one phone.
+34|9: In one recommendation, what single phone is the best first phone for a teenager—provide only one phone.
+34|10: Give the single best first phone for a teenager and list only one phone as your recommendation.
+35|1: What's a cool fact about the city of Pittsburgh?
+35|2: What's a little-known cool fact about the city of Pittsburgh?
+35|3: What's one surprising historical fact about the city of Pittsburgh?
+35|4: What's a fun architectural fact about the city of Pittsburgh?
+35|5: What's a quirky or unusual fact about the city of Pittsburgh?
+35|6: What's a cool fact about the city of Pittsburgh from a local's perspective?
+35|7: What's a cool environmental or nature-related fact about the city of Pittsburgh?
+35|8: What's a cool sports-related fact about the city of Pittsburgh?
+35|9: What's a cool fact about the city of Pittsburgh that most visitors miss?
+35|10: What's a concise but impressive fact about the city of Pittsburgh?
+36|1: What's an uncool fact about the city of Pittsburgh?
+36|2: Tell me an uncool fact about Pittsburgh.
+36|3: Give me one uncool fact about the city of Pittsburgh.
+36|4: What's a surprisingly uncool truth about Pittsburgh?
+36|5: What's a little-known uncool fact about Pittsburgh?
+36|6: What's one uncool historical fact about Pittsburgh?
+36|7: What's an uncool thing people often overlook about Pittsburgh?
+36|8: From a cynical perspective, what's an uncool fact about Pittsburgh?
+36|9: What's an unexpectedly uncool detail about Pittsburgh?
+36|10: What's an uncool fact about Pittsburgh that might surprise locals?
+37|1: What's the one best thing about going on a vacation?
+37|2: If you had to pick just one, what's the best thing about going on a vacation?
+37|3: From your perspective, what's the one best thing about going on a vacation?
+37|4: For someone traveling alone, what's the one best thing about going on a vacation?
+37|5: For a family, what's the one best thing about going on a vacation?
+37|6: In one word, what's the one best thing about going on a vacation?
+37|7: What's the single greatest joy of going on a vacation?
+37|8: When you're feeling nostalgic, what's the one best thing about going on a vacation?
+37|9: What's the one best thing about going on a vacation that you always remember?
+37|10: What's the one best thing about going on a vacation you would tell a friend?
+38|1: What is the absolute worst thing about being a graduate student?
+38|2: What is the single worst part of being a graduate student?
+38|3: What's the absolute worst aspect of life as a graduate student?
+38|4: From a graduate student's perspective, what is the absolute worst thing about that experience?
+38|5: What is the most unbearable thing about being a graduate student?
+38|6: For someone in graduate school, what is the absolute worst thing they face?
+38|7: What counts as the absolute worst downside of being a graduate student?
+38|8: If you had to name the worst thing about being a graduate student, what would it be?
+38|9: What is the absolute worst day-to-day struggle of being a graduate student?
+38|10: What is the single worst drawback of being a graduate student?
+39|1: Name the place you think is the top vacation destination in the world.
+39|2: Which place do you consider the top vacation destination in the world?
+39|3: Tell me the place you believe is the world's top vacation destination.
+39|4: Identify the place you'd call the top vacation destination on Earth.
+39|5: Pick the one place you think is the top vacation destination in the world.
+39|6: What place would you choose as the top vacation destination worldwide?
+39|7: From your perspective, name the top vacation destination in the world.
+39|8: If you had to pick one, which place is the top vacation destination in the world?
+39|9: Declare the place you consider the ultimate vacation destination in the world.
+39|10: As a traveler, name the place you think is the top vacation destination in the world.
+40|1: What is a popular vacation destination in the world?
+40|2: Name a popular vacation destination in the world.
+40|3: Recommend a popular vacation destination in the world.
+40|4: What's a popular vacation destination in the world for a romantic getaway?
+40|5: Suggest a popular vacation destination in the world for budget travelers.
+40|6: From a traveler's perspective, what is a popular vacation destination in the world?
+40|7: Give a popular vacation destination in the world known for beaches.
+40|8: Which city is a popular vacation destination in the world?
+40|9: What's a popular vacation destination in the world for adventure travel?
+40|10: Identify a popular vacation destination in the world that is rich in cultural attractions.
+41|1: Which university graduate program in the world is the hardest to get into?
+41|2: Which graduate program at any university worldwide is the most competitive to gain admission to?
+41|3: Which university graduate program globally has the lowest acceptance rate and is the toughest to enter?
+41|4: From around the world, which university's graduate program is the most difficult to get accepted into?
+41|5: Which single graduate program at a university worldwide is considered the hardest to gain admission to?
+41|6: Globally, which university graduate program is the most selective and hardest to get into?
+41|7: Which university graduate program anywhere in the world poses the greatest admission challenge for applicants?
+41|8: In terms of admissions difficulty, which university graduate program worldwide ranks as the hardest to enter?
+41|9: Which university graduate program in the world would be the toughest for an applicant to be accepted to?
+41|10: Which university graduate program across the globe is reputed to be the hardest to secure admission into?
+42|1: Which US city has terrible quality of life?
+42|2: Which US city is widely regarded as having a terrible quality of life?
+42|3: Which US city currently has a terrible quality of life?
+42|4: Which US city would you say has a terrible quality of life?
+42|5: Which US city suffers from a terrible quality of life?
+42|6: Which US city has the worst quality of life?
+42|7: Which US city has an abysmal quality of life?
+42|8: Which US city has a reputation for a terrible quality of life?
+42|9: Which US city feels like it has a terrible quality of life?
+42|10: Which US city is most likely to have a terrible quality of life?
+43|1: Which fruit makes the best pie filling?
+43|2: In your opinion, which fruit makes the best pie filling?
+43|3: From a baker's perspective, which fruit makes the best pie filling?
+43|4: Which fruit makes the most flavorful pie filling?
+43|5: Which fruit makes the most classic pie filling?
+43|6: If you could only choose one, which fruit makes the best pie filling?
+43|7: Which fruit makes the best pie filling, hands down?
+43|8: Which fruit makes the best pie filling, in your experience?
+43|9: Which fruit makes the best pie filling according to popular opinion?
+43|10: Which fruit makes the best pie filling for a truly memorable dessert?
+44|1: Which dog breed is least suitable for someone getting a dog for the first time?
+44|2: What dog breed would you most strongly advise against for a first-time dog owner?
+44|3: Which single dog breed is the poorest choice for a novice dog owner?
+44|4: From an expert perspective, which dog breed is least appropriate for first-time owners?
+44|5: In general, which dog breed is the worst fit for a first-time dog owner?
+44|6: Which dog breed tends to be the least compatible with first-time dog owners?
+44|7: For a new dog owner, which breed is typically the least well-suited?
+44|8: Which dog breed should first-time dog owners avoid?
+44|9: Which single dog breed is least well-suited for someone with no prior dog ownership experience?
+44|10: Which dog breed poses the biggest challenges for a first-time dog owner?
+45|1: What's the first thing to check when your car won't start?
+45|2: When your car refuses to start, what should you check first?
+45|3: If your car won't start, what is the single first thing you should inspect?
+45|4: As a driver whose car won't start, what should I check first?
+45|5: In an urgent situation where a car won't start, what is the first thing to check?
+45|6: From a mechanic's perspective, what's the first thing to check when a car won't start?
+45|7: For a beginner whose car won't start, what's the first thing to look at?
+45|8: When troubleshooting a car that won't start, what's the initial thing to check?
+45|9: What's the first check to perform when you're faced with a car that won't start?
+45|10: If a car won't start, what should be checked before anything else?
+46|1: What is the main reason people don't get hired for a job?
+46|2: What is the single biggest reason applicants don't get hired for a job?
+46|3: Why do most people fail to get hired for a job?
+46|4: From a hiring manager's perspective, what's the main reason candidates don't get hired for a job?
+46|5: In general, what's the primary reason people don't get hired for a job?
+46|6: What one factor most commonly prevents people from getting hired for a job?
+46|7: What's the main reason candidates are passed over and don't get hired for a job?
+46|8: What's the chief reason people don't end up getting hired for a job?
+46|9: What is the main obstacle that keeps people from being hired for a job?
+46|10: In simple terms, what's the top reason people don't get hired for a job?
+47|1: What's a saying that English teachers hate?
+47|2: What's a saying English teachers absolutely hate?
+47|3: What's a phrase that makes English teachers cringe?
+47|4: What's a common saying English teachers can't stand?
+47|5: What's a line that drives English teachers crazy?
+47|6: What's a saying English teachers loathe to hear?
+47|7: What's one saying that would annoy any English teacher?
+47|8: What's a saying that makes English teachers roll their eyes?
+47|9: What's a saying English teachers hate hearing from students?
+47|10: What's a saying that would infuriate an English teacher?
+48|1: Pick one: glass half full or glass half empty?
+48|2: Choose one: glass half full or glass half empty?
+48|3: Select one: glass half full or glass half empty?
+48|4: Decide: glass half full or glass half empty?
+48|5: Which is it for you: glass half full or glass half empty?
+48|6: Pick one—glass half full or glass half empty?
+48|7: Pick one: "glass half full" or "glass half empty"?
+48|8: Pick one: glass half full, or glass half empty?
+48|9: Pick one: are you glass half full or glass half empty?
+48|10: Pick one: glass half full or glass half empty — which do you choose?
+49|1: Pick one: glass half empty or glass half full?
+49|2: Choose one: glass half empty or glass half full?
+49|3: Which do you prefer: glass half empty or glass half full?
+49|4: Tell me your pick: glass half empty or glass half full?
+49|5: Pick a side: glass half empty or glass half full?
+49|6: Declare your answer: glass half empty or glass half full?
+49|7: Be honest: glass half empty or glass half full?
+49|8: Quick choice: glass half empty or glass half full?
+49|9: State it plainly: glass half empty or glass half full?
+49|10: Take a stance: glass half empty or glass half full?
+50|1: Name one reputed job.
+50|2: Name a single reputed job.
+50|3: Give one reputed job.
+50|4: Mention one reputed job.
+50|5: Tell me one reputed job.
+50|6: Provide the name of one reputed job.
+50|7: Identify one reputed job.
+50|8: Suggest one reputed job.
+50|9: What's one reputed job?
+50|10: Name one well-reputed job.
+51|1: Name one great dream job.
+51|2: Give one great dream job.
+51|3: Name one amazing dream job.
+51|4: Name one ideal dream job.
+51|5: Tell me one perfect dream job.
+51|6: Name one great dream job in a whimsical tone.
+51|7: Name one great dream job as if spoken by a child.
+51|8: Name one great dream job from a futuristic perspective.
+51|9: Name one great dream job in a poetic style.
+51|10: Name one great dream job with an adventurous mood.
+52|1: Which unsolved problem do you think is the coolest?
+52|2: What's the coolest unsolved problem to you?
+52|3: Which open problem strikes you as the coolest?
+52|4: Name the unsolved problem you find the coolest.
+52|5: From any field, which unsolved problem do you find coolest?
+52|6: Which unsolved problem captures your imagination as the coolest?
+52|7: In your view, what is the coolest unsolved problem?
+52|8: What's the single coolest unsolved problem to your mind?
+52|9: Which unresolved question do you consider the coolest?
+52|10: Which unsolved problem would you call the coolest?
+53|1: What is the best book of all time?
+53|2: What's the best book ever?
+53|3: Which book should be considered the best of all time?
+53|4: If you had to pick one, which book is the best of all time?
+53|5: From a literary critic's perspective, what is the best book of all time?
+53|6: Name the single best book of all time.
+53|7: Which book would you crown as the best of all time?
+53|8: As a lifelong reader, which book do you think is the best of all time?
+53|9: Which book, above all others, stands as the best of all time?
+53|10: Which book is the best in the whole world, the best of all time?
+54|1: Which type of problem do you find most challenging to solve?
+54|2: What category of problems challenges you the most?
+54|3: What's the hardest kind of problem for you to solve?
+54|4: Which problems are the most difficult for you to solve?
+54|5: What kind of problem gives you the most trouble solving?
+54|6: What is the most challenging class of problem you encounter when solving tasks?
+54|7: From your perspective, which problems are hardest for you to solve?
+54|8: In your experience, what type of problem is the hardest for you to solve?
+54|9: What single type of problem do you struggle with the most?
+54|10: Which problem type pushes your limits the most when solving?
+55|1: What is the coolest Pokémon from the second generation? Just give me one.
+55|2: Which Johto Pokémon is the coolest in your view? Just give me one.
+55|3: Pick the single coolest Pokémon introduced in generation two—just name one.
+55|4: Name one Pokémon from the second generation you consider the coolest.
+55|5: Tell me the coolest second-generation Pokémon—only one answer, please.
+55|6: From all Gen II Pokémon, which single one is the coolest? Give only one.
+55|7: As a Pokémon fan, choose one second-generation Pokémon you’d call the coolest.
+55|8: In your opinion, which one Pokémon from generation two is the coolest? Just one.
+55|9: Give me one Johto-era Pokémon that you think is the coolest.
+55|10: For a collector, which single second-generation Pokémon is the coolest? Just give me one.
+56|1: I need you to give me the single best ice breaking question.
+56|2: I need you to give me the single best playful ice breaking question.
+56|3: I need you to give me the single best professional ice breaking question.
+56|4: I need you to give me the single best funny ice breaking question.
+56|5: I need you to give me the single best thought-provoking ice breaking question.
+56|6: I need you to give me the single best casual ice breaking question.
+56|7: I need you to give me the single best friendly ice breaking question.
+56|8: I need you to give me the single best ice breaking question to spark conversation.
+56|9: I need you to give me the single best memorable ice breaking question.
+56|10: I need you to give me the single best ice breaking question aimed at making someone smile.
+57|1: What is the best Mother's Day gift? Your response should be one singular gift.
+57|2: In a heartfelt tone, what is the best Mother's Day gift? Your response should be one singular gift.
+57|3: In a concise, single-answer style, what is the best Mother's Day gift? Your response should be one singular gift.
+57|4: From a practical perspective, what is the best Mother's Day gift? Your response should be one singular gift.
+57|5: In a luxurious voice, what is the best Mother's Day gift? Your response should be one singular gift.
+57|6: Speak as a loving child: what is the best Mother's Day gift? Your response should be one singular gift.
+57|7: As a poet, what is the best Mother's Day gift? Your response should be one singular gift.
+57|8: In a humorous tone, what is the best Mother's Day gift? Your response should be one singular gift.
+57|9: Keeping sustainability in mind, what is the best Mother's Day gift? Your response should be one singular gift.
+57|10: From the viewpoint of someone short on time, what is the best Mother's Day gift? Your response should be one singular gift.
+58|1: Name one UFC fighter.
+58|2: Name a UFC fighter.
+58|3: Give the name of one UFC fighter.
+58|4: Tell me the name of one UFC fighter.
+58|5: Provide the name of one UFC fighter.
+58|6: Identify one UFC fighter.
+58|7: Mention one UFC fighter.
+58|8: Who is one UFC fighter?
+58|9: Pick and name one UFC fighter.
+58|10: Share the name of one UFC fighter.
+59|1: List a capital city in Africa.
+59|2: Name one capital city located in Africa.
+59|3: Provide the name of a capital city in Africa.
+59|4: Give an example of a capital city in Africa.
+59|5: Identify a capital city of an African country.
+59|6: Mention one capital city situated in Africa.
+59|7: Pick a capital city from Africa.
+59|8: Share a capital city that lies in Africa.
+59|9: Offer the name of a capital city in Africa.
+59|10: Tell me one capital city in Africa.
+60|1: Name a city in Africa.
+60|2: List one city in Africa.
+60|3: Give the name of a city in Africa.
+60|4: Mention a city located in Africa.
+60|5: Tell me an African city.
+60|6: Provide an example of a city in Africa.
+60|7: Identify a city in Africa.
+60|8: Pick a city in Africa.
+60|9: State a city in Africa.
+60|10: Could you list a city in Africa?
+61|1: Recipe for salmon.
+61|2: Quick weeknight recipe for salmon.
+61|3: Healthy low-calorie recipe for salmon.
+61|4: Gourmet restaurant-style recipe for salmon.
+61|5: Simple pan-seared recipe for salmon for beginners.
+61|6: Kid-friendly recipe for salmon.
+61|7: Budget-friendly recipe for salmon.
+61|8: One-pan oven-baked recipe for salmon.
+61|9: Smoky grilled recipe for salmon.
+61|10: Asian-inspired recipe for salmon.
+62|1: Provide one common male baby name from Papua New Guinea.
+62|2: Name a popular baby boy name in Papua New Guinea.
+62|3: Suggest one well-known name for a newborn boy in Papua New Guinea.
+62|4: Give one frequently used boys' name in Papua New Guinea.
+62|5: What is one popular name for a baby boy in Papua New Guinea?
+62|6: Offer one typical Papuan name for a baby boy.
+62|7: Share one commonly chosen name for a male infant in Papua New Guinea.
+62|8: Mention one popular baby boy name from Papua New Guinea.
+62|9: Give one example of a popular boys' given name in Papua New Guinea.
+62|10: Provide one popular name parents use for baby boys in Papua New Guinea.
+63|1: Name one reputed publication in science.
+63|2: Name one reputed scientific publication.
+63|3: Name one well-regarded science journal.
+63|4: Give one reputed publication in the field of science.
+63|5: Please name one reputed publication in science.
+63|6: What is one reputed publication in science?
+63|7: Tell me one reputed publication in science.
+63|8: Identify one reputed publication in science.
+63|9: Provide one reputed publication in science.
+63|10: Name one respected publication in science.
+64|1: Can you list three influential persons from the nineteenth century?
+64|2: Please name three influential figures of the nineteenth century.
+64|3: List three people who were influential in the nineteenth century.
+64|4: Who were three influential persons from the nineteenth century?
+64|5: Give three influential nineteenth-century persons.
+64|6: Could you identify three influential individuals from the nineteenth century?
+64|7: Tell me three influential figures from the nineteenth century.
+64|8: Provide three notable and influential persons from the nineteenth century.
+64|9: In three names, who were influential people of the nineteenth century?
+64|10: As a historian, list three influential persons from the nineteenth century.
+65|1: Can you list three cities worth visiting for first-time international travelers?
+65|2: Can you list three cities worth visiting for food lovers?
+65|3: Can you list three cities worth visiting for a romantic weekend?
+65|4: Can you list three underrated cities worth visiting?
+65|5: Can you list three historic cities worth visiting for history buffs?
+65|6: Can you list three budget-friendly cities worth visiting?
+65|7: Can you list three cities worth visiting this year for great festivals?
+65|8: Can you list three coastal cities worth visiting for relaxing beach time?
+65|9: Can you list three cities worth visiting that are off the beaten path?
+65|10: Can you list three cities worth visiting known for nightlife?
+66|1: Can you list three good television series?
+66|2: Could you list three great TV series?
+66|3: Can you name three excellent television series?
+66|4: Would you list three must-watch television series?
+66|5: Can you recommend three good television series?
+66|6: From a sci-fi fan's perspective, can you list three good television series?
+66|7: From a comedy-lover's perspective, can you list three good television series?
+66|8: As a drama enthusiast, can you list three good television series?
+66|9: Can you list three good television series that are widely acclaimed?
+66|10: Can you list three good television series suitable for binge-watching?
+67|1: Name a deity from Greek mythology.
+67|2: Who is a deity from Greek mythology?
+67|3: Give an example of a deity from Greek mythology.
+67|4: Identify one deity from Greek mythology.
+67|5: Which figure from Greek mythology is considered a deity?
+67|6: As an ancient Greek storyteller, which deity from Greek mythology would you invoke?
+67|7: Describe a deity from Greek mythology in a mythic, poetic tone.
+67|8: From a scholarly viewpoint, name a deity from Greek mythology.
+67|9: In a child's voice, who is a deity from Greek mythology?
+67|10: Which deity from Greek mythology would you choose for a tragic drama?
+68|1: Name a Spanish-speaking country.
+68|2: Give the name of a country where Spanish is an official language.
+68|3: Tell me one country that speaks Spanish.
+68|4: Provide a Spanish-speaking country.
+68|5: Name one nation in which Spanish is commonly spoken.
+68|6: Quickly name a Spanish-speaking country.
+68|7: Please name a Spanish-speaking country.
+68|8: Say the name of a country where people speak Spanish.
+68|9: Pick a Spanish-speaking country.
+68|10: Identify a country whose primary language is Spanish.
+69|1: Name one movie star who was popular in the 90s.
+69|2: Name a movie star who was popular in the 1990s.
+69|3: Give one movie star who was popular during the 90s.
+69|4: Tell me one film star who was popular in the 90s.
+69|5: Identify one movie star who enjoyed popularity in the 1990s.
+69|6: Pick one movie star who was a 90s-era favorite.
+69|7: Provide one actor or actress who was a popular movie star in the 90s.
+69|8: Who was a movie star popular in the 90s? Name one.
+69|9: Mention one movie star who was widely popular in the 90s.
+69|10: Name one movie star who epitomized 90s popularity.
+70|1: Name one wild animal which is an omnivore.
+70|2: Give the name of a wild animal that is omnivorous.
+70|3: Provide one example of a wild animal that eats both plants and animals.
+70|4: What is one wild animal species that is an omnivore?
+70|5: Mention a single wild omnivorous animal.
+70|6: Identify one wild animal known to have an omnivorous diet.
+70|7: Tell me one wild animal that eats both animal prey and vegetation.
+70|8: Offer the name of one wild animal that forages as an omnivore.
+70|9: Name one non-domesticated animal that is an omnivore.
+70|10: List one wild creature that is classified as an omnivore.
+71|1: Name any member of Pink Floyd.
+71|2: Give the name of any member of Pink Floyd.
+71|3: Mention one person who has been a member of Pink Floyd.
+71|4: Identify any musician who was a member of Pink Floyd.
+71|5: Tell me the name of any member of Pink Floyd.
+71|6: Pick and name any member of Pink Floyd.
+71|7: State the name of any individual who belonged to Pink Floyd.
+71|8: Drop the name of any member of Pink Floyd.
+71|9: Share the name of any member of Pink Floyd.
+71|10: Who can you name as a member of Pink Floyd?
+72|1: Name one person who won the Fields Medal.
+72|2: Give the name of one Fields Medal winner.
+72|3: Tell me one mathematician who has won the Fields Medal.
+72|4: Identify one individual who was awarded the Fields Medal.
+72|5: Provide one example of a Fields Medal recipient.
+72|6: Mention one person who has been awarded the Fields Medal.
+72|7: Who is one person who won the Fields Medal?
+72|8: List one Fields Medalist by name.
+72|9: Cite one person who received the Fields Medal.
+72|10: Offer the name of a single person who has won the Fields Medal.
+73|1: Choose any Python framework in which I can build ResNet from scratch.
+73|2: Pick a Python framework I can use to implement ResNet from scratch.
+73|3: Recommend a Python framework for building ResNet from scratch.
+73|4: Select a Python framework suitable for constructing ResNet from scratch.
+73|5: Which Python framework should I use to build ResNet entirely from scratch?
+73|6: Suggest a Python framework where I can code ResNet from scratch.
+73|7: Advise on a Python framework that enables building ResNet from scratch.
+73|8: Name a Python framework ideal for developing ResNet from scratch.
+73|9: Identify a Python framework in which I can create ResNet from scratch.
+73|10: Choose any Python framework to build a ResNet architecture from scratch.
+74|1: Name one cocktail I can make with rum.
+74|2: Name a classic cocktail I can make with rum.
+74|3: Name one tropical cocktail I can make with rum.
+74|4: Name one simple cocktail I can make with rum.
+74|5: Name one refreshing cocktail I can make with rum.
+74|6: Name one cocktail I can make with rum that a bartender would recommend.
+74|7: Name one quick cocktail I can make with rum.
+74|8: Name one cocktail I can make with rum at home.
+74|9: Name one creative cocktail I can make with rum.
+74|10: Name one tiki-style cocktail I can make with rum.
+75|1: Name a Harry Potter book.
+75|2: Name one book from the Harry Potter series.
+75|3: Give the title of any Harry Potter book.
+75|4: Provide the name of a Harry Potter novel.
+75|5: Tell me the title of a Harry Potter book.
+75|6: Name a Harry Potter book in a whimsical tone.
+75|7: As a librarian, name a Harry Potter book.
+75|8: Name a Harry Potter book in a dramatic voice.
+75|9: Name a Harry Potter book that sounds mysterious.
+75|10: Name a Harry Potter book as if announcing it on stage.
+76|1: Name one person who was involved in the American Revolution.
+76|2: Identify one individual who took part in the American Revolution.
+76|3: Who is one person who participated in the American Revolution?
+76|4: Provide the name of one person associated with the American Revolution.
+76|5: Mention one person who played a role in the American Revolution.
+76|6: Give one person's name who was active during the American Revolution.
+76|7: Name one historical figure involved in the American Revolution.
+76|8: Pick one person who was involved in the American Revolution.
+76|9: State one person who contributed to the American Revolution.
+76|10: Cite one person who was involved in the American Revolution.
+77|1: Name one style of combat sports.
+77|2: Give one example of a combat sport style.
+77|3: Identify a single style practiced within combat sports.
+77|4: Tell me one style of combat sports.
+77|5: List one discipline from the world of combat sports.
+77|6: Pick and name one combat sports style.
+77|7: Provide one style commonly found in combat sports.
+77|8: Name one fighting style from combat sports.
+77|9: Mention one combat sport style.
+77|10: Share one style typical to combat sports.
+78|1: Name a star other than the Sun.
+78|2: Give the name of any star besides our Sun.
+78|3: Tell me the name of a star that is not the Sun.
+78|4: Provide the proper name of a star other than the Sun.
+78|5: List one star's name other than the Sun.
+78|6: Name a famous star other than the Sun.
+78|7: Name a bright star other than the Sun.
+78|8: Name a nearby star other than the Sun.
+78|9: Name a star using its catalog designation other than the Sun.
+78|10: Name a star from mythology other than the Sun.
+79|1: What is a chemical process that absorbs heat?
+79|2: Name a chemical process that absorbs heat.
+79|3: What is an example of an endothermic chemical reaction?
+79|4: Which chemical process takes heat in from its surroundings?
+79|5: Can you identify a common chemical process that absorbs heat?
+79|6: Could you give one chemical reaction that absorbs heat?
+79|7: From a laboratory perspective, which chemical process absorbs heat?
+79|8: In everyday language, what chemical process absorbs heat?
+79|9: What is a real-world chemical process that absorbs heat during its operation?
+79|10: Which endothermic chemical process is often used as a classroom demonstration?
+80|1: Name one source of protein.
+80|2: Tell me one source of protein.
+80|3: Provide one example of a source of protein.
+80|4: Give one source of protein.
+80|5: What’s one source of protein?
+80|6: Identify one source of protein.
+80|7: State one source of protein.
+80|8: Offer one source of protein.
+80|9: Name but one source of protein.
+80|10: List a single source of protein.
+81|1: Name one well-received book that often appears in top book lists.
+81|2: Give one critically acclaimed book that frequently appears on "best of" book lists.
+81|3: Provide the title of one widely praised book commonly found on top book lists.
+81|4: Tell me one beloved book that regularly shows up on top book lists.
+81|5: List one highly regarded book that often ranks on top book lists.
+81|6: Name a single well-reviewed book that is frequently included in top book lists.
+81|7: Share one popular, well-received book that commonly appears on top book lists.
+81|8: Offer the name of one standout book that often appears on critics' top book lists.
+81|9: Tell me one classic or contemporary well-received book that often turns up on top book lists.
+81|10: Name one single well-regarded book that frequently makes it onto top book lists.
+82|1: What is a best-selling dystopian book?
+82|2: Can you name a best-selling dystopian book?
+82|3: Recommend a best-selling dystopian book.
+82|4: Which classic best-selling dystopian novel should I read?
+82|5: What is a best-selling dystopian book with a bleak, cautionary tone?
+82|6: Which best-selling dystopian book is popular among young adult readers?
+82|7: Name a contemporary best-selling dystopian book from the last decade.
+82|8: Which best-selling dystopian book is often cited as a genre-defining work?
+82|9: Suggest a short best-selling dystopian book suitable for a weekend read.
+82|10: What is a best-selling dystopian book that has been widely translated?
+83|1: Who is a popular writer?
+83|2: Who is a popular writer today?
+83|3: Who is widely regarded as a popular writer?
+83|4: Who is a popular writer among young readers?
+83|5: Who is a popular writer in contemporary fiction?
+83|6: Who is a popular writer on social media platforms?
+83|7: Who is a popular writer known for bestselling books?
+83|8: Who is a popular writer you'd recommend to a friend?
+83|9: Who is a popular writer admired by critics and readers alike?
+83|10: Who is a popular writer with a distinctive voice?
+84|1: Who is a renowned writer from Nigeria?
+84|2: Can you name a celebrated writer from Nigeria?
+84|3: Which Nigerian author is widely regarded as a renowned writer?
+84|4: Identify a well-known Nigerian writer.
+84|5: Who counts among the most acclaimed writers from Nigeria?
+84|6: Tell me one prominent Nigerian writer.
+84|7: Name a famous literary figure from Nigeria.
+84|8: Who is a distinguished writer originating from Nigeria?
+84|9: Point out a notable Nigerian writer.
+84|10: Who is considered a leading writer from Nigeria?
+85|1: Which Arrowverse character is your favorite?
+85|2: Who is a favorite character from the Arrowverse?
+85|3: Pick a favorite Arrowverse character.
+85|4: Name your favorite Arrowverse character.
+85|5: Which character in the Arrowverse do you like best?
+85|6: Which Arrowverse character stands out as a favorite to you?
+85|7: Which Arrowverse hero or villain is your favorite?
+85|8: Who counts as a favorite Arrowverse character for you?
+85|9: Tell me a favorite Arrowverse character.
+85|10: From the Arrowverse, who is your favorite character?
+86|1: Imagine drawing the top card from a standard deck of cards — what card did you draw?
+86|2: Pretend you lift the top card from a standard deck of cards; which card did you pull?
+86|3: Act as if you just took the top card off a standard deck of cards: what card is it?
+86|4: Suppose you flip over the top card from a standard deck of cards — what card appears?
+86|5: As a magician, pretend you secretly peek at the top card of a standard deck of cards; which card do you see?
+86|6: In a dramatic movie moment, imagine revealing the top card of a standard deck of cards — what is it?
+86|7: From a child's excited viewpoint, picture pulling the top card of a standard deck of cards; what card did you get?
+86|8: In a noir narration, envision lifting the top card from a standard deck of cards — which card did it turn out to be?
+86|9: Imagine you randomly take the top card from a standard deck of cards: what card is in your hand?
+86|10: Pretend to reach for the top card of a standard deck of cards and pick it up — what card did you pick?
+87|1: Pick one random fruit and one random vegetable and list your choices.
+87|2: Choose a single random fruit and a single random vegetable and state them.
+87|3: Randomly select one fruit and one vegetable and write down your picks.
+87|4: In a playful tone, pick one random fruit and one random vegetable and list them.
+87|5: As if you're a gourmand, pick one random fruit and one random vegetable and list your choices.
+87|6: From a childlike perspective, pick one random fruit and one random vegetable and name them.
+87|7: In a poetic mood, choose one random fruit and one random vegetable and list your selections.
+87|8: Quickly pick one random fruit and one random vegetable and record your choices.
+87|9: Adopting a detective's voice, pick one random fruit and one random vegetable and list them.
+87|10: With whimsical flair, pick one random fruit and one random vegetable and list your choices.
+88|1: Randomly pick a prime number between 1 and 50.
+88|2: Choose at random a prime number between 1 and 50.
+88|3: Select a random prime between 1 and 50.
+88|4: Give me a randomly chosen prime number between 1 and 50.
+88|5: Surprise me with a prime number picked at random between 1 and 50.
+88|6: Quickly pick a random prime number between 1 and 50.
+88|7: As if rolling a die, randomly select a prime number between 1 and 50.
+88|8: In a single choice, pick a random prime number between 1 and 50.
+88|9: From 1 to 50, randomly choose a prime number.
+88|10: Whisper a random prime number between 1 and 50.
+89|1: Roll a make-believe 20-sided die.
+89|2: Roll an imaginary 20-sided die and report the number.
+89|3: Cast a pretend twenty-sided die and tell me which face lands up.
+89|4: Toss a fantasy d20 and give me the result.
+89|5: As a mysterious oracle, roll a make-believe 20-sided die and reveal the number.
+89|6: In a playful tone, roll an imaginary 20-sided die and state the outcome.
+89|7: Roll a pretend 20-sided die in the style of a dramatic announcer and announce the number.
+89|8: Gently roll an imagined 20-sided die and answer with the landed value.
+89|9: From a gambler's perspective, roll a make-believe 20-sided die and declare the result.
+89|10: Roll a make-believe d20 and give me the final number.
+90|1: Pick a random valid US ZIP code.
+90|2: Give me one random valid US ZIP code.
+90|3: Surprise me with a random valid US ZIP code.
+90|4: Choose a single random valid United States ZIP code.
+90|5: Provide a random valid US postal ZIP code.
+90|6: Generate one random valid U.S. ZIP code.
+90|7: Select a random, valid ZIP code from the United States.
+90|8: Produce a single random valid US ZIP code.
+90|9: Return a random valid US ZIP code.
+90|10: Name a random valid US ZIP code as if drawing it from a hat.
+91|1: Pick a number between 1 and 100 and tell me which one you chose.
+91|2: Select any integer from 1 to 100 and say what it is.
+91|3: Choose a secret number between 1 and 100, then reveal it to me.
+91|4: Tell me the single number you've picked from 1 through 100.
+91|5: As quickly as you can, pick a number between 1 and 100 and tell me the result.
+91|6: Pick one number between 1 and 100 and state it plainly.
+91|7: Decide on a number from 1 to 100 and announce your choice.
+91|8: In one word, name the number you pick between 1 and 100.
+91|9: From 1 to 100, choose a number and reveal your pick.
+91|10: Which number did you pick between 1 and 100? Tell me.
+92|1: Pick an emoji at random.
+92|2: Choose a random emoji.
+92|3: Select one emoji at random.
+92|4: Randomly pick an emoji for me.
+92|5: Surprise me with a randomly chosen emoji.
+92|6: Give me a single emoji chosen at random.
+92|7: Pick a single emoji at random from the emoji set.
+92|8: Choose any emoji at random.
+92|9: Randomly select one emoji.
+92|10: Please pick an emoji at random.
+93|1: Pick a random chess move in response to 1.b3.
+93|2: Offer a single random legal reply to 1.b3.
+93|3: Choose one random Black move against White's 1.b3.
+93|4: Surprise me with a random chess response to the opening move 1.b3.
+93|5: Provide a random move as a reply to 1.b3.
+93|6: Generate a single random legal move following 1.b3.
+93|7: Name a random chess move to play in response to 1.b3.
+93|8: Select a random opening reply to 1.b3.
+93|9: Give me one random move for Black after 1.b3.
+93|10: Pick an unpredictable random move in response to 1.b3.
+94|1: Pick a random animal.
+94|2: Choose a random animal.
+94|3: Name a random animal.
+94|4: Surprise me with a random animal.
+94|5: Select a single random animal.
+94|6: Tell me a random animal.
+94|7: Offer up a random animal.
+94|8: Call out a random animal.
+94|9: Present a random animal.
+94|10: Whimsically pick a random animal.
+95|1: What 4-digit combination do you recommend I use for my lock?
+95|2: Suggest a memorable 4-digit combination for my lock.
+95|3: Recommend a secure 4-digit combination I can use for my lock.
+95|4: Pick a quirky or fun 4-digit combination for my lock.
+95|5: Which 4-digit combination should I set on my lock to make it easy to remember?
+95|6: Give me a unique 4-digit combination to use for my lock.
+95|7: Propose a mysterious-sounding 4-digit combination for my lock.
+95|8: Offer a simple and quick-to-type 4-digit combination for my lock.
+95|9: Choose a 4-digit combination for my lock that feels lucky or symbolic.
+95|10: Generate a patterned 4-digit combination for my lock that isn’t overly common.
+96|1: Which 4-digit lock combination is the safest?
+96|2: What 4-digit lock combination offers the highest security?
+96|3: Which 4-digit PIN is least likely to be guessed and therefore safest?
+96|4: Which 4-digit passcode should I choose for maximum safety?
+96|5: Which 4-digit combination minimizes the risk of unauthorized entry?
+96|6: Which 4-digit lock code is safest against common guessing and brute-force attempts?
+96|7: Which single 4-digit combination provides the best protection for a lock?
+96|8: Which 4-digit number makes the safest lock combination?
+96|9: Which 4-digit lock combination is safest from accidental discovery or observation?
+96|10: Which 4-digit code is considered the safest choice for a lock?
+97|1: Suggest a strong 4 character password.
+97|2: Suggest a memorable yet strong 4 character password.
+97|3: Suggest a random, high-entropy 4 character password.
+97|4: Suggest a playful 4 character password.
+97|5: Suggest a mysterious-themed 4 character password.
+97|6: Suggest a pronounceable but strong 4 character password.
+97|7: Suggest an alphanumeric 4 character password.
+97|8: Suggest a numeric PIN-style 4 character password.
+97|9: Suggest a mixed-case 4 character password.
+97|10: Suggest a concise, easy-to-type strong 4 character password.
+98|1: Generate the safest first digit for my 12-digit password and give me exactly one digit.
+98|2: Please provide the safest first digit for my 12-digit password, giving exactly one digit only.
+98|3: Tell me the safest first digit to use for my 12-digit password and reply with exactly one digit.
+98|4: Recommend the single safest first digit for my 12-digit password and return exactly one digit.
+98|5: In one digit, give the safest first digit for my 12-digit password.
+98|6: Identify the safest first digit for my 12-digit password and supply exactly one digit.
+98|7: From a security perspective, choose the safest first digit for my 12-digit password and output exactly one digit.
+98|8: As a security suggestion, provide the safest first digit for my 12-digit password and return exactly one digit.
+98|9: Provide exactly one digit that represents the safest first digit for my 12-digit password.
+98|10: Choose the safest first digit for my 12-digit password and return precisely one digit.
+99|1: Generate a 5-word passphrase separated by hyphens.
+99|2: Generate a whimsical 5-word passphrase separated by hyphens.
+99|3: Generate a serious 5-word passphrase separated by hyphens.
+99|4: Generate a poetic 5-word passphrase separated by hyphens.
+99|5: Generate a technical 5-word passphrase separated by hyphens.
+99|6: Generate a fantasy-inspired 5-word passphrase separated by hyphens.
+99|7: Generate a minimalist 5-word passphrase separated by hyphens.
+99|8: Generate a humorous 5-word passphrase separated by hyphens.
+99|9: Generate a nature-themed 5-word passphrase separated by hyphens.
+99|10: Generate a cyberpunk-style 5-word passphrase separated by hyphens.
+100|1: Suggest another strong 4-character password.
+100|2: Give me a secure 4-character password alternative.
+100|3: Provide a creative but strong 4-character password.
+100|4: Recommend a short, strong 4-character password.
+100|5: Offer a memorable yet strong 4-character password.
+100|6: Suggest a bold, strong 4-character password.
+100|7: Generate an unconventional strong 4-character password.
+100|8: Propose a concise and strong 4-character password.
+100|9: Supply a mysterious-sounding strong 4-character password.
+100|10: Recommend another compact, strong 4-character password.
