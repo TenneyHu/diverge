@@ -1,0 +1,45 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "infinite-chats-taxonomy",
+  "dataset_size": 170778273,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/liweijiang/infinite-chats-taxonomy@256dbe3ca6ffbbe955fa4f4b14fa8e03a2f4fba1/data/train-00000-of-00001.parquet": {
+      "num_bytes": 89844270,
+      "checksum": null
+    }
+  },
+  "download_size": 89844270,
+  "features": {
+    "prompt": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "category_list": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 260622543,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 170778273,
+      "num_examples": 26066,
+      "dataset_name": "infinite-chats-taxonomy"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
